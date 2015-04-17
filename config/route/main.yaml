@@ -1,0 +1,6 @@
+## YAML Template.
+service_getallroles:
+    method: get
+    app: controller
+    module: ControllerRol
+    action: getRolById

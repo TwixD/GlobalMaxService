@@ -1,0 +1,13 @@
+<?php
+
+$data = array (
+  'service_getallroles' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerRol',
+    'action' => 'getRolById',
+  ),
+);
+
+?>
