@@ -8,6 +8,13 @@ $data = array (
     'module' => 'ControllerRol',
     'action' => 'getRolById',
   ),
+  'service_getallpais' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPais',
+    'action' => 'getAllPais',
+  ),
 );
 
 ?>

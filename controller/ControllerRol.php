@@ -19,8 +19,8 @@ class ControllerRol {
 			}
     }
 
-		
-	/*	$values = array_values($data);
+		/*
+		$values = array_values($data);
 		foreach ($data as $key) {
 	   		$json = $values[0]->to_json();
         	print_r($json);

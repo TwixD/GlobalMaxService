@@ -4,3 +4,9 @@ service_getallroles:
     app: controller
     module: ControllerRol
     action: getRolById
+
+service_getallpais:
+	method: get
+	app: controller
+	module: ControllerPais
+	action: getAllPais
