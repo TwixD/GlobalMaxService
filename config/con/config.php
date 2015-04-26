@@ -4,6 +4,7 @@
  require_once 'lib/vendor/php-activerecord/ActiveRecord.php';
  include('lib/vendor/spyc/spyc.php');
  require_once 'lib/base/LogSystem.php';
+ require_once 'lib/base/MailSystem.php';
 
  ActiveRecord\Config::initialize(function($cfg)
  {

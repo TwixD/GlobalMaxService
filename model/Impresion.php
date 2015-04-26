@@ -1,6 +1,6 @@
 <?php
-class Rol extends ActiveRecord\Model
+class Impresion extends ActiveRecord\Model
 {
- 	public static $table_name = 'globalmx_ rol';
- 	public static $primary_key = 'id_rol';
+ 	public static $table_name = 'globalmx_impresion';
+ 	public static $primary_key = 'idglobalmx_impresion';
 }

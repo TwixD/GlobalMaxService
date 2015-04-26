@@ -1,12 +1,91 @@
-## YAML Template.
+#Descripcion : Busca el rol por el id
+#Parametro   : id (Int)
+#Salida      : Rol buscado por el id.
 service_getallroles:
     method: get
     app: controller
     module: ControllerRol
     action: getRolById
-
+#Descripcion : Busca todos los paises 
+#Parametro   : No
+#Salida      : Todos los paises en la base de datos.
 service_getallpais:
 	method: get
 	app: controller
 	module: ControllerPais
 	action: getAllPais
+#Descripcion : Busca la region
+#Parametro   : idPais (Int)
+#Salida      : Todos las regiones del id del pais
+service_getregionbypais:
+	method: get
+	app: controller
+	module: ControllerRegion
+	action: getRegionByPais
+#Descripcion : Obtiene la ciudad dentro de una region
+#Parametro   : idRegion (Int)
+#Salida      : Lista de ciudades dentro de una region
+service_getciudadbyregion:
+	method: get
+	app: controller
+	module: ControllerCiudad
+	action: getCiudadByRegion
+#Descripcion : Permite validar si una tarjeta se encuentra en la base de datos
+#			   Y el pin concuerda con la tarjeta, Es el primer paso para autenticar.
+#Parametro   : numTarjeta
+#			   numPin
+#Salida      : Da Acceso al modulo de Activación de tarjeta.
+service_activetarjetastepone:
+	method: get
+	app: controller
+	module: ControllerTarjeta
+	action: activeTarjetaStep1
+#Descripcion : Permite crear una persona y asociarle un numero de tarjeta
+#			   Es el paso #2 para activar la tarjeta
+#Parametro   : cedula
+#			   tarjeta
+#			   ciudad
+#			   nombre
+#			   apellido
+#			   direccion
+#			   barrio
+#			   telefono
+#			   celular
+#			   email
+#			   fecha_nacimiento
+#			   pin
+#Salida      : Respuesta de Exito, Tarjeta activada.
+#Example     :http://127.0.0.1/GlobalMaxService/?route=service_activetarjetasteptwo&cedula=3242&tarjeta=1886934616766151&ciudad=10&nombre=asdas&apellido=asd&direccion=asdsaasdas&barrio=asdsa&telefono=23223&celular=342343&email=asdas&fecha_nacimiento=2015/03/03&pin=6733
+service_activetarjetasteptwo:
+	method: get
+	app: controller
+	module: ControllerPersona
+	action: createPersona
+#Descripcion : Permite si el usuario existe en la base de datos y concuerda con
+#			   la contraseña. 
+#Parametro   : user (String)
+#			   password (String)
+#Salida      : Da Acceso a la aplicación de administración global max
+service_validateuser:
+	method: get
+	app: controller
+	module: ControllerUsuario
+	action: validateUser
+#Descripcion : Permite crear un usuario en la base de datos.
+#Parametro   : rol    int()
+#              cedula int()
+#              user   String
+#              contrasena String
+#Salida      : Retorna mensaje de Exito o Error segun caso cumplido.
+#Example     : http://127.0.0.1/GlobalMaxService/?route=service_createuser&rol=1&cedula=112321321&user=juandavid&pass=twixtwix
+service_createuser:
+	method: get
+	app: controller
+	module: ControllerUsuario
+	action: createUser
+
+service_getmenu:
+	method: get
+	app: controller
+	module: ControllerMenu
+	action: getMenu

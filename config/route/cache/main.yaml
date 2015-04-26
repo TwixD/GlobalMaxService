@@ -15,6 +15,55 @@ $data = array (
     'module' => 'ControllerPais',
     'action' => 'getAllPais',
   ),
+  'service_getregionbypais' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerRegion',
+    'action' => 'getRegionByPais',
+  ),
+  'service_getciudadbyregion' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerCiudad',
+    'action' => 'getCiudadByRegion',
+  ),
+  'service_activetarjetastepone' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerTarjeta',
+    'action' => 'activeTarjetaStep1',
+  ),
+  'service_activetarjetasteptwo' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPersona',
+    'action' => 'createPersona',
+  ),
+  'service_validateuser' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerUsuario',
+    'action' => 'validateUser',
+  ),
+  'service_createuser' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerUsuario',
+    'action' => 'createUser',
+  ),
+  'service_getmenu' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerMenu',
+    'action' => 'getMenu',
+  ),
 );
 
 ?>
