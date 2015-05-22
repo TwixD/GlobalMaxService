@@ -1,0 +1,19 @@
+[28-04-2015 10:52:50]:[][securityAccess]:Try connect to :127.0.0.1 Trama :5034 Nit :805009514
+[28-04-2015 10:53:06]:[][securityAccess]:Try connect to :127.0.0.1 Trama :5034 Nit :805009514
+[28-04-2015 10:54:37]:[][securityAccess]:Try connect from:[127.0.0.1] Trama:[5034]Nit:[805009514]
+[28-04-2015 10:55:07]:[][securityAccess]:Try connect from:[127.0.0.1] Trama:[5034] Nit:[805009514]
+[28-04-2015 11:02:00]:[ControllerTarjeta][consultaTarjeta]:Try connect from:[127.0.0.1] Trama:[503] Nit:[8050095144]
+[28-04-2015 11:07:22]:[ControllerTarjeta][consultaTarjeta]:Try connect from:[127.0.0.1] Trama:[] Nit:[]
+[28-04-2015 11:13:00]:[ControllerTarjeta][consultaTarjeta]:Try connect from:[127.0.0.1] Trama:[] Nit:[] Risk Level-1
+[28-04-2015 11:13:15]:[ControllerTarjeta][consultaTarjeta]:Try connect from:[127.0.0.1] Trama:[503] Nit:[] Risk Level-2
+[28-04-2015 11:13:26]:[ControllerTarjeta][consultaTarjeta]:Try connect from:[127.0.0.1] Trama:[] Nit:[32323] Risk Level-2
+[28-04-2015 11:13:49]:[ControllerTarjeta][consultaTarjeta]:Try connect from:[127.0.0.1] Trama:[323] Nit:[32323]
+[28-04-2015 11:14:23]:[ControllerTarjeta][consultaTarjeta]:Try connect from:[127.0.0.1] Trama:[323] Nit:[32323] Risk Level-3
+[28-04-2015 10:53:11]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[] Nit:[805009514] Risk Level-2
+[28-04-2015 22:56:54]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[] Nit:[805009514] Risk Level-2
+[28-04-2015 22:57:19]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[553] Nit:[805009514] Risk Level-3
+[29-04-2015 08:42:18]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[503] Nit:[8050095143] Risk Level-3
+[29-04-2015 08:47:00]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[503] Nit:[8050095143] Risk Level-3
+[29-04-2015 08:47:29]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[503] Nit:[8050095143] Risk Level-3
+[29-04-2015 08:53:13]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[503] Nit:[8050095143] Risk Level-3
+[29-04-2015 08:54:05]:[ControllerTarjeta][managerTransation]:Try connect from:[127.0.0.1] Trama:[503] Nit:[8050095143] Risk Level-3

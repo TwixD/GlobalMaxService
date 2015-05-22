@@ -14,6 +14,7 @@ class ControllerCiudad{
 	   				$json = $key->to_json();
 	   				$concac.=$json.',';
 				}
+		    $concac = substr($concac, 0, strlen($concac) - 1);
 			processSuccess($concac);
 			printSuccessLog('Imprime Ciudad  :'.$idRegion,get_class($this),__FUNCTION__);
 

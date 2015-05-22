@@ -5,16 +5,31 @@
  include('lib/vendor/spyc/spyc.php');
  require_once 'lib/base/LogSystem.php';
  require_once 'lib/base/MailSystem.php';
-
- ActiveRecord\Config::initialize(function($cfg)
+ require_once 'lib/base/Security.php';
+ require_once 'conexion.php';
+ActiveRecord\Config::initialize(function($cfg)
  {
      $cfg->set_model_directory('model');
      $cfg->set_connections(array(
-         'development' => 'mysql://root:twix@localhost/globalmx'));
+         'development' => 'mysql://'.CON_USER.':'.CON_PASS.'@'.CON_HOST.'/'.CON_DB));
  });
 
  function getParam($paramName){
- 	if(strcasecmp(array_values(getYamlRute())[0]['method'], 'GET') == 0){
+    $callers=debug_backtrace();
+    $callers = $callers[1]['function'];
+    $llave = null;
+    foreach (array_values(getYamlRute()) as $key => $value) {
+        if(!is_null($llave )){
+            break;
+        }
+        foreach ($value as $key2 => $value2) {
+            if($value2 == $callers){
+                $llave = $key;
+                break;
+            }
+        }
+    }
+ 	if(strcasecmp(array_values(getYamlRute())[$llave]['method'], 'GET') == 0){
  		return $_GET[$paramName];
  	}else{
 		return $_POST[$paramName];
@@ -40,5 +55,4 @@
         }
         return FALSE;
    }
- 
  ?>

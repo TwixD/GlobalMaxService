@@ -1,68 +1,89 @@
 <?php
 
 $data = array (
-  'service_getallroles' => 
+  'globalmx_roles' => 
   array (
     'method' => 'get',
     'app' => 'controller',
     'module' => 'ControllerRol',
     'action' => 'getRolById',
   ),
-  'service_getallpais' => 
+  'globalmx_pais' => 
   array (
     'method' => 'get',
     'app' => 'controller',
     'module' => 'ControllerPais',
     'action' => 'getAllPais',
   ),
-  'service_getregionbypais' => 
+  'globalmx_regionbypais' => 
   array (
     'method' => 'get',
     'app' => 'controller',
     'module' => 'ControllerRegion',
     'action' => 'getRegionByPais',
   ),
-  'service_getciudadbyregion' => 
+  'globalmx_ciudadbyregion' => 
   array (
     'method' => 'get',
     'app' => 'controller',
     'module' => 'ControllerCiudad',
     'action' => 'getCiudadByRegion',
   ),
-  'service_activetarjetastepone' => 
+  'globalmx_activetarjetastep1' => 
   array (
-    'method' => 'get',
+    'method' => 'post',
     'app' => 'controller',
     'module' => 'ControllerTarjeta',
     'action' => 'activeTarjetaStep1',
   ),
-  'service_activetarjetasteptwo' => 
+  'globalmx_activetarjetastep2' => 
   array (
-    'method' => 'get',
+    'method' => 'post',
     'app' => 'controller',
     'module' => 'ControllerPersona',
     'action' => 'createPersona',
   ),
-  'service_validateuser' => 
+  'globalmx_v4lidateuser' => 
   array (
     'method' => 'get',
     'app' => 'controller',
     'module' => 'ControllerUsuario',
     'action' => 'validateUser',
   ),
-  'service_createuser' => 
+  'globalmx_cr3ateuser' => 
   array (
     'method' => 'get',
     'app' => 'controller',
     'module' => 'ControllerUsuario',
     'action' => 'createUser',
   ),
-  'service_getmenu' => 
+  'globalmx_menu' => 
   array (
     'method' => 'get',
     'app' => 'controller',
     'module' => 'ControllerMenu',
     'action' => 'getMenu',
+  ),
+  'globalmx_gettarjeta' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerTarjeta',
+    'action' => 'consultaTarjeta',
+  ),
+  'globalmxt1' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerTarjeta',
+    'action' => 'managerTransation',
+  ),
+  'globalmxt2' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerTarjeta',
+    'action' => 'tipoTransation',
   ),
 );
 

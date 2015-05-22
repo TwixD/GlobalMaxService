@@ -1,0 +1,465 @@
+[28-04-2015 10:20:41]:[ControllerTarjeta][managerTransation]:Inicio de transaccion
+[28-04-2015 10:20:48]:[ControllerTarjeta][managerTransation]:Inicio de transaccion
+[28-04-2015 10:27:32]:[ControllerTarjeta][managerTransation]:Inicio de transaccion
+[28-04-2015 10:28:07]:[ControllerTarjeta][managerTransation]:Inicio de transaccion
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:Conexion segura
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766149] Valida
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766149
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[28-04-2015 10:48:03]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:Conexion segura
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766149] Valida
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766149
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[28-04-2015 10:48:17]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[28-04-2015 10:53:11]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[28-04-2015 22:56:54]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[28-04-2015 22:57:19]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:Conexion segura
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766149] Valida
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766149
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[28-04-2015 22:57:56]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:Conexion segura
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766141] Valida
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766141
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[28-04-2015 23:01:02]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa.
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766141] Valida
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766141
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 08:40:52]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766141] Valida
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766141
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766141] Valida
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766141
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 08:41:14]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766141] Valida
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766141
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 08:41:50]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 08:42:18]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:47:00]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:47:00]:[ControllerTarjeta][managerTransation]:Conexion insegura bloqueada.
+[29-04-2015 08:47:29]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:47:29]:[ControllerTarjeta][managerTransation]:Conexion insegura bloqueada.
+[29-04-2015 08:53:13]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:53:13]:[ControllerTarjeta][managerTransation]:Conexion insegura bloqueada.
+[29-04-2015 08:54:05]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:54:05]:[ControllerTarjeta][managerTransation]:Conexion insegura bloqueada.
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766141] Valida
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766141
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 08:54:57]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766141] Valida
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766141
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:06:57]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766142] Valida
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766142
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:07:19]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766142] Valida
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766142
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:10:14]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766142] Valida
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766142
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:10:24]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766148] Valida
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766148
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:10:29]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766139] Valida
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766139
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:29:40]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766041] Valida
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766041
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:30:22]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765927] Valida
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765927
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:36:19]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765927] Valida
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765927
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:37:50]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765928] Valida
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765928
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:37:55]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765929] Valida
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765929
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:38:33]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765930] Valida
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765930
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:38:59]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765931] Valida
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765931
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:41:30]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765931] Valida
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765931
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:45:11]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765932] Valida
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765932
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 10:45:17]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765932] Valida
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765932
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 11:25:04]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765933] Valida
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765933
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 11:25:08]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :3309
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765933] Valida
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765933
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 11:27:52]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:------------Inicio de transaccion------------
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765934] Valida
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765934
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 11:27:58]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :236
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765935] Valida
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765935
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :1252
+[29-04-2015 11:30:42]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765935] Valida
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765935
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 13:19:18]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------
+[29-04-2015 14:12:22]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[29-04-2015 14:12:22]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[29-04-2015 14:12:22]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616766149] Valida
+[29-04-2015 14:12:22]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 14:12:22]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766138] Valida
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766138
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :3391
+[29-04-2015 14:13:26]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766138] Valida
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766138
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[29-04-2015 14:14:13]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:Conexion segura
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766008] Valida
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766008
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:1
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:-Valor           :52200
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:Transaccion de compra Exitosa. Pin activacion :3122
+[29-04-2015 14:18:56]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------
+[29-04-2015 14:20:14]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[29-04-2015 14:20:14]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[29-04-2015 14:20:14]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616766149] Valida
+[29-04-2015 14:20:14]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [RECARGA]
+[29-04-2015 14:20:14]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[29-04-2015 14:20:36]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[29-04-2015 14:20:36]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[29-04-2015 14:20:36]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616765906] Valida
+[29-04-2015 14:20:36]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 14:20:36]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616765906] Valida
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616765906] Valida
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 14:20:38]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[29-04-2015 14:22:14]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[29-04-2015 14:22:14]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[29-04-2015 14:22:14]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616765906] Valida
+[29-04-2015 14:22:14]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 14:22:14]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[29-04-2015 19:11:14]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[29-04-2015 19:11:14]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[29-04-2015 19:11:14]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616765906] Valida
+[29-04-2015 19:11:14]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [COMPRA]
+[29-04-2015 19:11:14]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[30-04-2015 09:50:02]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[30-04-2015 09:50:02]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[30-04-2015 09:50:02]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616765906] Valida
+[30-04-2015 09:50:02]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [COMPRA]
+[30-04-2015 09:50:02]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:Conexion segura
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765932] Valida
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765932
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[01-05-2015 21:24:40]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:Conexion segura
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616765932] Valida
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616765932
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[05-05-2015 16:25:13]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------
+[05-05-2015 20:20:29]:[ControllerTarjeta][tipoTransation]:-------------TIPO TRANSACCION-------------
+[05-05-2015 20:20:29]:[ControllerTarjeta][tipoTransation]:Conexion segura
+[05-05-2015 20:20:29]:[ControllerTarjeta][tipoTransation]:Tarjeta numero:[1886934616766149] Valida
+[05-05-2015 20:20:29]:[ControllerTarjeta][tipoTransation]:Tipo transaccion [RECARGA]
+[05-05-2015 20:20:29]:[ControllerTarjeta][tipoTransation]:----------------FIN CONSULTA----------------
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:-------------Inicio de transaccion-------------
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:Conexion segura
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:Tarjeta numero:[1886934616766149] Valida
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:Tipo transaccion [RECARGA]
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:Informacion de transaccion:
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:-Numero tarjeta  :1886934616766149
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:-Tipo transaccion:2
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:-Nit empresa     :805009514
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:-Valor           :999999
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:-Punto de venta  :23
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:Transaccion de recarga Exitosa.
+[05-05-2015 20:20:52]:[ControllerTarjeta][managerTransation]:----------------Fin transaccion----------------

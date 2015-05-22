@@ -2,7 +2,7 @@
  require 'config/con/config.php';
  $llave = null;
  foreach (array_keys(getYamlRute()) as $key => $value) {
- 	if($value == $_GET['route']){
+ 	if($value == $_GET['BC']){
  		$llave = $key;
  	}
  }

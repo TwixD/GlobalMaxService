@@ -455,3 +455,244 @@ HOLA
 [25-04-2015 09:57:35]:[ControllerUsuario][createUser]:Cambie el nombre del usuario.
 [25-04-2015 11:49:42]:[ControllerUsuario][validateUser]:Credenciales no validas.
 [25-04-2015 11:49:45]:[ControllerUsuario][validateUser]:Credenciales no validas.
+[27-04-2015 01:57:16]:[ControllerRol][getRolById]:Couldn't find Rol with ID=0
+[27-04-2015 01:57:26]:[ControllerRol][getRolById]:Couldn't find Rol with ID=0
+[27-04-2015 01:57:29]:[ControllerRol][getRolById]:Couldn't find Rol with ID=0
+[27-04-2015 01:57:32]:[ControllerRol][getRolById]:Couldn't find Rol with ID=0
+[27-04-2015 01:57:34]:[ControllerRol][getRolById]:Couldn't find Rol with ID=0
+[27-04-2015 01:57:37]:[ControllerRol][getRolById]:Couldn't find Rol with ID=0
+[27-04-2015 05:08:58]:[ControllerTarjeta][listTarjetaByEstado]:Tarjeta invalida.
+[27-04-2015 05:10:37]:[ControllerTarjeta][listTarjetaByEstado]:Estado invalido.
+[27-04-2015 05:10:38]:[ControllerTarjeta][listTarjetaByEstado]:Estado invalido.
+[27-04-2015 05:10:38]:[ControllerTarjeta][listTarjetaByEstado]:Estado invalido.
+[27-04-2015 05:10:42]:[ControllerTarjeta][listTarjetaByEstado]:Estado invalido.
+[27-04-2015 05:19:23]:[ControllerTarjeta][listTarjetaByEstado]:Couldn't find Tarjeta with ID=3123
+[27-04-2015 06:00:26]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese un numero de pin correcto.5001
+[27-04-2015 06:09:17]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese un numero de pin correcto.7463
+[27-04-2015 06:09:29]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese un numero de pin correcto.7463
+[27-04-2015 06:09:36]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=18869346167661503
+[27-04-2015 06:09:41]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese un numero de pin correcto.7463
+[27-04-2015 06:12:35]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese un numero de pin correcto.7463
+[27-04-2015 09:14:14]:[][securityAccess]:Ingrese un numero de pin correcto.
+[28-04-2015 10:16:33]:[][securityAccess]:Ingrese un numero de pin correcto.
+[28-04-2015 10:42:06]:[][securityAccess]:Ingrese un numero de pin correcto.
+[28-04-2015 02:11:20]:[ControllerTarjeta][managerTransation]:Ingrese el numero de tarjeta.
+[28-04-2015 02:19:47]:[ControllerTarjeta][managerTransation]:Ingrese el numero de tarjeta.
+[28-04-2015 02:19:47]:[ControllerTarjeta][managerTransation]:Ingrese el numero de tarjeta.
+[28-04-2015 02:19:47]:[ControllerTarjeta][managerTransation]:Ingrese el numero de tarjeta.
+[28-04-2015 02:22:14]:[ControllerTarjeta][managerTransation]:Ingrese el numero de tarjeta.
+[28-04-2015 02:22:20]:[ControllerTarjeta][managerTransation]:Couldn't find Tarjeta with ID=123
+[15-05-2015 11:37:45]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[15-05-2015 11:40:40]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[15-05-2015 11:42:05]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[15-05-2015 11:48:02]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:48:16]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:48:36]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:49:18]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:50:03]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:50:20]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:51:07]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:52:01]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:52:53]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:54:03]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:56:19]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:57:34]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 11:58:17]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 12:00:15]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 12:01:00]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[15-05-2015 13:17:55]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:23:18]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:23:59]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:26:57]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:02]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:02]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:03]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:03]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:04]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:04]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:04]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:05]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:05]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:06]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:15]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:15]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:16]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:16]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:27:17]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:28:00]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:28:21]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:28:21]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:28:22]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:36:18]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[15-05-2015 13:36:28]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[15-05-2015 13:36:28]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[15-05-2015 13:36:28]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[15-05-2015 13:38:05]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:40:53]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:40:54]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:43:29]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:44:20]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:44:21]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:44:57]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:53:25]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:00]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:01]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:10]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:11]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:11]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:11]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:11]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:54:43]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:55:22]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:55:23]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:55:49]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:56:28]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:56:43]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:56:59]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:57:14]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:57:39]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:58:11]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 13:59:50]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:00]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:13]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:23]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:29]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:34]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:38]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:58]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:59]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:00:59]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:01:02]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:01:03]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[15-05-2015 14:01:03]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[16-05-2015 17:48:42]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[16-05-2015 17:57:48]:[ControllerPersona][createPersona]:La direccion debe ser mas larga
+[16-05-2015 18:09:54]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:11:09]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:12:48]:[ControllerPersona][createPersona]:La direccion debe ser mas larga
+[16-05-2015 18:15:06]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:16:33]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[16-05-2015 18:16:39]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[16-05-2015 18:16:52]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[16-05-2015 18:16:54]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[16-05-2015 18:18:17]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:18:18]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:18:19]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:18:19]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:18:19]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:18:30]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:19:59]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[16-05-2015 18:20:11]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[16-05-2015 18:20:20]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[16-05-2015 18:21:33]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[16-05-2015 18:27:15]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[16-05-2015 18:27:16]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[16-05-2015 18:27:16]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[16-05-2015 18:27:17]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[16-05-2015 18:27:17]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[16-05-2015 18:27:41]:[ControllerPersona][createPersona]:Couldn't find Ciudad with ID=01
+[16-05-2015 18:35:39]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[16-05-2015 18:37:46]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[16-05-2015 18:38:51]:[ControllerPersona][createPersona]:Ya hay un cliente registrado con la cedula
+[16-05-2015 18:39:49]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[16-05-2015 18:43:22]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[19-05-2015 11:08:13]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[19-05-2015 11:56:25]:[ControllerPersona][createPersona]:La direccion debe ser mas larga
+[19-05-2015 13:03:45]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[19-05-2015 13:32:18]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[19-05-2015 13:34:48]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:34:53]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:34:59]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:35:00]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:35:08]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:09]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:09]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:10]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:10]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:11]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:11]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:11]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:12]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:12]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:12]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:12]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:13]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:13]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:13]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:13]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:13]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:14]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:14]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:14]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:14]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:14]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:15]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:15]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:15]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:15]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:35:15]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:36:05]:[ControllerPersona][createPersona]:La cedula debe ser mas corta
+[19-05-2015 13:38:43]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:38:50]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:38:57]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:39:02]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:42]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:46]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:47]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:47]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:48]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:48]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:48]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:49]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:49]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:49]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:41:50]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:43:42]:[ControllerPersona][createPersona]:La cedula debe ser mas larga
+[19-05-2015 13:44:51]:[ControllerPersona][createPersona]:El nombre debe ser mas largo
+[19-05-2015 13:44:59]:[ControllerPersona][createPersona]:La direccion debe ser mas larga
+[19-05-2015 13:45:51]:[ControllerPersona][createPersona]:Ingrese la cedula por favor
+[19-05-2015 23:57:48]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[20-05-2015 00:50:41]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[20-05-2015 00:51:51]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[20-05-2015 00:52:15]:[ControllerPersona][createPersona]:Ingrese el codigo de ciudad por favor
+[20-05-2015 00:58:46]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[20-05-2015 12:19:47]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[20-05-2015 12:19:48]:[ControllerPersona][createPersona]:Tarjeta invalida.
+[20-05-2015 22:41:23]:[ControllerTarjeta][activeTarjetaStep1]:Debe comprar la tarjeta.3213
+[20-05-2015 22:42:32]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese un numero de pin correcto.3213
+[20-05-2015 22:49:08]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese el numero de tarjeta.
+[20-05-2015 23:03:30]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese un numero de pin correcto.3123
+[21-05-2015 12:43:13]:[ControllerTarjeta][activeTarjetaStep1]:Ingrese el numero de tarjeta.
+[21-05-2015 12:59:47]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=4324324343234343
+[21-05-2015 13:32:09]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=2131231231231232
+[21-05-2015 13:32:40]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1232131232131231
+[21-05-2015 13:33:05]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=3123123123123123
+[21-05-2015 13:33:47]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=3123123123123123
+[21-05-2015 13:34:25]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1232131232131231
+[21-05-2015 13:34:55]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1232132131232231
+[21-05-2015 13:38:07]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=2131231231231231
+[21-05-2015 14:02:09]:[ControllerTarjeta][activeTarjetaStep1]:Debe comprar la tarjeta.5476
+[21-05-2015 14:02:15]:[ControllerTarjeta][activeTarjetaStep1]:Debe comprar la tarjeta.5476
+[21-05-2015 14:03:42]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1231232132132131
+[21-05-2015 14:05:23]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=4343243244433242
+[21-05-2015 14:05:30]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=4343243244433242
+[21-05-2015 14:05:32]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=4343243244433242
+[21-05-2015 14:05:34]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=4343243244433242
+[21-05-2015 14:06:09]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=3123123123123211
+[21-05-2015 14:11:53]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=3123123123123211
+[21-05-2015 14:13:14]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=3123123123123211
+[21-05-2015 15:30:22]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:22]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:23]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:23]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:24]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:24]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:48]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:48]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:48]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:30:49]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:31:22]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:31:23]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:31:23]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:31:34]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[21-05-2015 15:31:34]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234

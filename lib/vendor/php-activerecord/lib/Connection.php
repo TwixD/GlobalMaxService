@@ -257,7 +257,7 @@ abstract class Connection
 	{
 		if ($this->logging)
 			$this->logger->log($sql);
-
+		
 		$this->last_query = $sql;
 
 		try {

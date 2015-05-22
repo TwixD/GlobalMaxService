@@ -1,36 +1,27 @@
 <?php
-
-require_once 'conexion.php';
-
 class ControllerMenu {
-
     private $conexion;
-
     function __construct() {
-
         $this->conexion = new Conexion();
     }
-
     public function getDetalleMenu() {
-        $sql2 =  'SELECT r.forumtitle, p.forumtitle, p.id_programa, p.parentid, p.leaf,c.forumtitle carpeta
-                        FROM globalmx_reporte r, 
-					 globalmx_programas p, 
-				     globalmx_carpeta c,
-					 globalmx_rolesprogramas rolpro,
-					 globalmx_rol roles,	
-					 globalmx_usuario user
-                WHERE r.id = p.id
-                and c.id_carpeta = r.id_carpeta
-				and rolpro.id_programa = p.id_programa
-				and roles.id_rol = rolpro.id_rol
-				and user.globalmx_rol_id_rol = roles.id_rol
-				and user.cedula = 13;';
-        $result = ($this->conexion->getTreeMenu($sql2));
+          $documento = getParam('documento');
+          $sql2 =  'SELECT r.forumtitle, p.forumtitle, p.id_programa, p.parentid, p.leaf,c.forumtitle carpeta
+          FROM globalmx_reporte r, 
+					globalmx_programas p, 
+				  globalmx_carpeta c,
+					globalmx_rolesprogramas rolpro,
+					globalmx_rol roles,	
+					globalmx_usuario user
+          WHERE r.id = p.id
+          AND c.id_carpeta = r.id_carpeta
+				  AND rolpro.id_programa = p.id_programa
+				  AND roles.id_rol = rolpro.id_rol
+				  AND user.globalmx_rol_id_rol = roles.id_rol
+				  AND user.cedula ='.$documento;
+
+        $result = ($this->conexion->getTreeMenu($sql2));    
         $resulMAS = '{ "children":[' . $result . ']}';
-
-
-
-
         $almacenarMenu = array();
         $contadorMenus = 0;
         $json;
@@ -48,12 +39,8 @@ class ControllerMenu {
 
         $nuevo_string = substr($json, 1);
         $nuevo_string = substr($nuevo_string, 0, -1);
-
         $resultado = str_replace("],", "],|", $nuevo_string);
-
         $resultado2 = explode(',|', $resultado);
-
-
         $arrayTree = array();
         $countTree = 0;
         for ($i = 0; $i < count($resultado2); $i++) {
@@ -78,16 +65,11 @@ class ControllerMenu {
     }
 
     public function getMenu() {
-
-        //cho $resulMas = '{ "children": [ { "forumtitle": "Catalogo", "children":[{"forumtitle":"Mi musica","id_programa":"10","parentid":"musica","leaf":"true","carpeta":"Catalogo"},{"forumtitle":"La biblia","id_programa":"20","parentid":"biblia1","leaf":"true","carpeta":"Catalogo"}] }, { "forumtitle": "Ventas", "children":[{"forumtitle":"Cobro","id_programa":"500","parentid":"cobro1","leaf":"true","carpeta":"Ventas"}] }, { "forumtitle": "Iglesia", "children":[{"forumtitle":"Ofrendas","id_programa":"3","parentid":"ofrendasId","leaf":"true","carpeta":"Iglesia"}] },]}';
- 
-        $resulMAS = '{ "children": 
-                      [ 
-                      ' . $this->getDetalleMenu()[0] . '
-                      ' . $this->getDetalleMenu()[1] . '
-                      ' . $this->getDetalleMenu()[2] . '                
-                    ]
-                    }';
+        $resulMAS = '{ "children":['; 
+        foreach ($this->getDetalleMenu() as $key) {
+          $resulMAS .= $key;
+        }
+        $resulMAS .= ']}';
         echo $resulMAS;
     }
 

@@ -113,9 +113,12 @@ class ControllerPersona {
         printSuccessLog('FECHANACIMIENTO['.$persona->fecha_nacimiento.']',get_class($this),__FUNCTION__);
         try{
             Tarjeta::find($persona->globalmx_tarjeta_numero);
+                printSuccessLog('->La tarjeta fue encontrada.',get_class($this),__FUNCTION__);
             $p = Persona::find('first',
                         array('conditions' => array('cedula = ?', $persona->cedula)));
+                printSuccessLog('->Buscando cedula de persona.',get_class($this),__FUNCTION__);
             if(is_null($p)){
+                printSuccessLog('->La persona no se encuentra registrada[OK]',get_class($this),__FUNCTION__);
             $data = Persona::find('first',
                         array('conditions' => array('globalmx_tarjeta_numero = ?', $persona->globalmx_tarjeta_numero)));
           		if(count($data)==0){
@@ -189,6 +192,7 @@ class ControllerPersona {
                         }else{
                                 $tarjeta = Tarjeta::find($persona->globalmx_tarjeta_numero);
                                 $tarjeta->update_attributes(array('globalmx_estado_id_estado' => 1, 'numero' => $persona->globalmx_tarjeta_numero));
+                                printSuccessLog('->Actualizando a estado ACTIVADO[1]',get_class($this),__FUNCTION__);
                                 //sendMail();
                                 $pin = Pin::find('first',
                                 array('conditions' => array('codigo = ?', $numberPin)));

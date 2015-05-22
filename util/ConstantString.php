@@ -1,10 +1,33 @@
 <?php
+#CONEXION
+//PRODUCCION
+/*
+define('CON_HOST', 'localhost');
+define('CON_USER', 'globalmx_ws');
+define('CON_PASS', '+ZFv51F!A1U-');
+define('CON_DB', 'globalmx_ws');*/
+//DESARROLLO
+define('CON_HOST', 'localhost');
+define('CON_USER', 'root');
+define('CON_PASS', 'twix');
+define('CON_DB', 'globalmx');
+
+#PARAMETROS CONFIG
+define('MIN_RECARGA', 10000);
+define('MAX_RECARGA', 10000000);
 #MAIL
 define('MAIL_ALLOW' , 'jdcastano@gane.com.co,juandavidcrivera@hotmail.com');
 #LOGS
 define('LOG_ERROR', 'log/error.log');
 define('LOG_SUCCESS', 'log/success.log');
-define('LOG_DESC', '['.date("d-m-Y h:i:s").']:[');
+define('LOG_SECURITY', 'log/security.log');
+define('LOG_TRANSATION', 'log/transation.log');
+define('LOG_DESC', '['.date("d-m-Y H:i:s").']:[');
+define('HACK_1', 'Try connect from:[');
+define('HACK_2', '] Trama:[');
+define('HACK_3', '] Nit:[');
+define('MSG_JSON', '{"msg":"');
+define('MSG_JSON2', '"}');
 #-------------.............--MESSAGE ERROR USERS--------------------------
 #GENERAL ERROS
 define('NO_EXIST', 'No existe');
@@ -29,6 +52,7 @@ define('TARJETA_ERROR_3', 'Debe comprar la tarjeta.');
 #PIN ERRORS
 define('PIN_ERROR_1', 'Ingrese el numero de pin.');
 define('PIN_ERROR_2', 'Ingrese un numero de pin correcto.');
+define('PIN_ERROR_3', 'Pin no asignado a la tarjeta.');
 #USUARIO ERRORS
 define('USUARIO_ERROR_1', 'Ingrese el usuario por favor.');
 define('USUARIO_ERROR_2', 'Ingrese el password por favor.');
@@ -48,6 +72,13 @@ define('PERSONA_ERROR_9', 'Ingrese el celular por favor');
 define('PERSONA_ERROR_10', 'Ingrese el email por favor');
 define('PERSONA_ERROR_11', 'Ingrese la fecha de nacimiento por favor');
 define('PERSONA_ERROR_12', 'Ya hay un cliente registrado con la cedula');
+#ESTADO ERRORS
+define('ESTADO_ERROR_1', 'Estado invalido.');
+#TRANSATION ERROS
+define('TRANSA_ERROR_1', 'Ingrese el valor a recargar.');
+define('TRANSA_ERROR_2', 'El valor minimo a recargar es :');
+define('TRANSA_ERROR_3', 'El valor minimo a recargar es :');
+define('TRANSA_ERROR_4', 'Error en la transaccion.');
 #-------------------------------------------------------------------------
 #YAML
 define('ORIGINAL_FILE', 'config/route/main.yaml');
@@ -57,4 +88,7 @@ define('USUARIO_SUCCES_1', '{"msg":"Acceso garantizado"}');
 define('USUARIO_SUCCES_2', '{"msg":"El usuario a sido creado"}');
 #PERSONA SUCCESS
 define('PERSONA_SUCCES_1', '{"msg":"Tarjeta Activada"}');
+#TRANSATION SUCCESS
+define('TRANS_SUCCES_1', '{"msg":"Transaccion Exitosa."}');
+define('TRANS_SUCCES_2', '{"msg":"Compra Exitosa."}');
 ?>

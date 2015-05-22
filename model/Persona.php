@@ -23,8 +23,8 @@ class Persona extends ActiveRecord\Model
  			 'too_short' => 'El ID de la ciudad es demasiado corto'),
 
  		array('nombre', 'within' => array(3,44),
- 		     'too_long' => 'La cedula debe ser mas larga',
- 			 'too_short' => 'La cedula debe ser mas larga'),
+ 		     'too_long' => 'El nombre debe ser mas largo',
+ 			 'too_short' => 'El nombre debe ser mas largo'),
 
   		array('apellido', 'within' => array(3,44),
  		     'too_long' => 'El apellido debe ser mas corto',
