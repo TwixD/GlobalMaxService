@@ -9875,3 +9875,244 @@
 [21-05-2015 16:17:35]:[ControllerPais][getAllPais]:Entro metodo....
 [21-05-2015 16:17:35]:[ControllerPais][getAllPais]:Encontro paises.
 [21-05-2015 16:17:35]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 11:43:57]:[ControllerTarjeta][activeTarjetaStep1]:Entro metodo
+[22-05-2015 11:43:57]:[ControllerTarjeta][activeTarjetaStep1]:Ingreso Tarjeta : 1886934616766079 Pin :8367
+[22-05-2015 11:43:57]:[ControllerTarjeta][activeTarjetaStep1]:Acceso permitido. Tarjeta : [1886934616766079] Pin : [8367]
+[22-05-2015 11:43:58]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 11:43:58]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 11:43:58]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 11:44:22]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 11:44:22]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 11:44:22]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:10:22]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:10:22]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:10:22]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:10:54]:[ControllerTarjeta][activeTarjetaStep1]:Entro metodo
+[22-05-2015 12:10:54]:[ControllerTarjeta][activeTarjetaStep1]:Ingreso Tarjeta : 1886934616766079 Pin :8367
+[22-05-2015 12:10:54]:[ControllerTarjeta][activeTarjetaStep1]:Acceso permitido. Tarjeta : [1886934616766079] Pin : [8367]
+[22-05-2015 12:10:54]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:10:54]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:10:54]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:11:19]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:11:19]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:11:19]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:19:05]:[ControllerRegion][getRegionByPais]:Entro metodo    :122
+[22-05-2015 12:19:05]:[ControllerRegion][getRegionByPais]:Encontro Region :122
+[22-05-2015 12:19:05]:[ControllerRegion][getRegionByPais]:Imprime Region  :122
+[22-05-2015 12:19:06]:[ControllerCiudad][getCiudadByRegion]:Entro metodo    :2328
+[22-05-2015 12:19:06]:[ControllerCiudad][getCiudadByRegion]:Encontro Ciudad :2328
+[22-05-2015 12:19:06]:[ControllerCiudad][getCiudadByRegion]:Imprime Ciudad  :2328
+[22-05-2015 12:22:27]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:22:27]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:22:27]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:22:34]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:22:34]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:22:34]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:22:37]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:22:37]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:22:37]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:22:38]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:22:38]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:22:38]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:23:32]:[ControllerTarjeta][activeTarjetaStep1]:Entro metodo
+[22-05-2015 12:23:32]:[ControllerTarjeta][activeTarjetaStep1]:Ingreso Tarjeta : 1886934616766079 Pin :8367
+[22-05-2015 12:23:32]:[ControllerTarjeta][activeTarjetaStep1]:Acceso permitido. Tarjeta : [1886934616766079] Pin : [8367]
+[22-05-2015 12:23:32]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:23:32]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:23:32]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:23:39]:[ControllerRegion][getRegionByPais]:Entro metodo    :126
+[22-05-2015 12:23:39]:[ControllerRegion][getRegionByPais]:Encontro Region :126
+[22-05-2015 12:23:39]:[ControllerRegion][getRegionByPais]:Imprime Region  :126
+[22-05-2015 12:23:40]:[ControllerCiudad][getCiudadByRegion]:Entro metodo    :2390
+[22-05-2015 12:23:40]:[ControllerCiudad][getCiudadByRegion]:Encontro Ciudad :2390
+[22-05-2015 12:23:40]:[ControllerCiudad][getCiudadByRegion]:Imprime Ciudad  :2390
+[22-05-2015 12:24:08]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:24:08]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:24:08]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:24:17]:[ControllerTarjeta][activeTarjetaStep1]:Entro metodo
+[22-05-2015 12:24:17]:[ControllerTarjeta][activeTarjetaStep1]:Ingreso Tarjeta : 1886934616766079 Pin :8367
+[22-05-2015 12:24:17]:[ControllerTarjeta][activeTarjetaStep1]:Acceso permitido. Tarjeta : [1886934616766079] Pin : [8367]
+[22-05-2015 12:24:17]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:24:17]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:24:17]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 12:24:45]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 12:24:45]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 12:24:45]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:30:00]:[ControllerRegion][getRegionByPais]:Entro metodo    :128
+[22-05-2015 13:30:00]:[ControllerRegion][getRegionByPais]:Encontro Region :128
+[22-05-2015 13:30:00]:[ControllerRegion][getRegionByPais]:Imprime Region  :128
+[22-05-2015 13:30:01]:[ControllerCiudad][getCiudadByRegion]:Entro metodo    :2446
+[22-05-2015 13:30:01]:[ControllerCiudad][getCiudadByRegion]:Encontro Ciudad :2446
+[22-05-2015 13:30:01]:[ControllerCiudad][getCiudadByRegion]:Imprime Ciudad  :2446
+[22-05-2015 13:31:01]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:31:01]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:31:01]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:31:07]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:31:07]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:31:07]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:31:15]:[ControllerTarjeta][activeTarjetaStep1]:Entro metodo
+[22-05-2015 13:31:15]:[ControllerTarjeta][activeTarjetaStep1]:Ingreso Tarjeta : 1886934616766079 Pin :8367
+[22-05-2015 13:31:15]:[ControllerTarjeta][activeTarjetaStep1]:Acceso permitido. Tarjeta : [1886934616766079] Pin : [8367]
+[22-05-2015 13:31:15]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:31:15]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:31:15]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:31:28]:[ControllerRegion][getRegionByPais]:Entro metodo    :123
+[22-05-2015 13:31:28]:[ControllerRegion][getRegionByPais]:Encontro Region :123
+[22-05-2015 13:31:28]:[ControllerRegion][getRegionByPais]:Imprime Region  :123
+[22-05-2015 13:31:30]:[ControllerCiudad][getCiudadByRegion]:Entro metodo    :660
+[22-05-2015 13:31:30]:[ControllerCiudad][getCiudadByRegion]:Encontro Ciudad :660
+[22-05-2015 13:31:30]:[ControllerCiudad][getCiudadByRegion]:Imprime Ciudad  :660
+[22-05-2015 13:32:15]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:32:15]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:32:15]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:36:12]:[ControllerTarjeta][activeTarjetaStep1]:Entro metodo
+[22-05-2015 13:36:12]:[ControllerTarjeta][activeTarjetaStep1]:Ingreso Tarjeta : 1886934616766079 Pin :8367
+[22-05-2015 13:36:12]:[ControllerTarjeta][activeTarjetaStep1]:Acceso permitido. Tarjeta : [1886934616766079] Pin : [8367]
+[22-05-2015 13:36:12]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:36:12]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:36:12]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:38:11]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:38:11]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:38:11]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:38:23]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:38:23]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:38:23]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:38:30]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:38:30]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:38:30]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:38:57]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:38:57]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:38:57]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:39:02]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:39:02]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:39:02]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:43:24]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:43:24]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:43:24]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:43:34]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:43:34]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:43:34]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:43:41]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:43:41]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:43:41]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:44:54]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:44:54]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:44:54]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:45:12]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:45:12]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:45:12]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:45:47]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:45:47]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:45:47]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:45:48]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:45:48]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:45:48]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 13:51:13]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 13:51:13]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 13:51:13]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:21:56]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:21:56]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:21:56]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:22:18]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:22:18]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:22:18]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:22:51]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:22:51]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:22:51]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:28:03]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:28:03]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:28:03]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:28:44]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:28:44]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:28:44]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:38:51]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:38:51]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:38:51]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:39:05]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:39:05]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:39:05]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 14:39:20]:[ControllerPais][getAllPais]:Entro metodo....
+[22-05-2015 14:39:20]:[ControllerPais][getAllPais]:Encontro paises.
+[22-05-2015 14:39:20]:[ControllerPais][getAllPais]:Imprime Paises.
+[22-05-2015 15:57:37]:[ControllerUsuario][validateUser]:Ingreso al metodo.
+[22-05-2015 15:57:37]:[ControllerUsuario][validateUser]:Ingreso Usuario : omgomgomg Password : aad9c39311c0de5f2079
+[22-05-2015 15:57:42]:[ControllerUsuario][validateUser]:Ingreso al metodo.
+[22-05-2015 15:57:42]:[ControllerUsuario][validateUser]:Ingreso Usuario : omgomgomg Password : aad9c39311c0de5f2079
+[22-05-2015 15:57:45]:[ControllerUsuario][validateUser]:Ingreso al metodo.
+[22-05-2015 15:57:45]:[ControllerUsuario][validateUser]:Ingreso Usuario : omgomgomg Password : aad9c39311c0de5f2079
+[22-05-2015 15:57:55]:[ControllerUsuario][validateUser]:Ingreso al metodo.
+[22-05-2015 15:57:55]:[ControllerUsuario][validateUser]:Ingreso Usuario : admin Password : admin
+[22-05-2015 15:57:55]:[ControllerUsuario][validateUser]:Acceso permitido. Usuario : [admin] Password : [admin]
+[22-05-2015 16:37:47]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:37:57]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:37:59]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:51:17]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:51:18]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:51:18]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:51:19]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:51:30]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:55:09]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:55:11]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:55:11]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:55:11]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:55:12]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:55:12]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:55:46]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 16:57:06]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:02:47]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:07:15]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:08:52]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:15:30]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:15:52]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:16:25]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:16:26]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:16:26]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:16:26]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:16:47]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:16:47]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:03]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:10]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:10]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:14]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:35]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:35]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:36]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:36]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:42]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:42]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:46]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:17:49]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:19:09]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:19:10]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:19:10]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:19:14]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:21:05]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:23:18]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:23:19]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:23:19]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:23:19]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:33]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:33]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:33]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:34]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:34]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:34]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:34]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:30:36]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:31:10]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:24]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:24]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:24]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:24]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:24]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:27]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:45]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:35:45]:[ControllerUsuario][deleteUser]:{"msg":"El usuario fue eliminado"}
+[22-05-2015 17:43:42]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:43:45]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:43:55]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:43:55]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:44:06]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:44:06]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:44:28]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[22-05-2015 17:44:53]:[ControllerUsuario][deleteUser]:Ingreso al metodo.

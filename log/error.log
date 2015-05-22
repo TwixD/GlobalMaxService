@@ -696,3 +696,17 @@ HOLA
 [21-05-2015 15:31:23]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
 [21-05-2015 15:31:34]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
 [21-05-2015 15:31:34]:[ControllerTarjeta][activeTarjetaStep1]:Couldn't find Tarjeta with ID=1234123412341234
+[22-05-2015 15:57:37]:[ControllerUsuario][validateUser]:Credenciales no validas.
+[22-05-2015 15:57:42]:[ControllerUsuario][validateUser]:Credenciales no validas.
+[22-05-2015 15:57:45]:[ControllerUsuario][validateUser]:Credenciales no validas.
+[22-05-2015 16:51:30]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 16:55:09]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 16:55:11]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 16:55:11]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 16:55:11]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 16:55:12]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 16:55:12]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 16:55:46]:[ControllerUsuario][deleteUser]:Couldn't find Usuario with ID=21321
+[22-05-2015 16:57:06]:[ControllerUsuario][deleteUser]:Couldn't find Usuario with ID=21321
+[22-05-2015 17:07:15]:[ControllerUsuario][deleteUser]:Ingrese el id del usuario
+[22-05-2015 17:44:53]:[ControllerUsuario][deleteUser]:No es posible eliminar el usuario, tiene tarjetas asignadas

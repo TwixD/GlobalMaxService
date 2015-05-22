@@ -57,6 +57,13 @@ $data = array (
     'module' => 'ControllerUsuario',
     'action' => 'createUser',
   ),
+  'globalmx_d3let3user' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerUsuario',
+    'action' => 'deleteUser',
+  ),
   'globalmx_menu' => 
   array (
     'method' => 'get',

@@ -1,7 +1,7 @@
 #Descripcion : Busca el rol por el id
 #Parametro   : id (Int)
 #Salida      : Rol buscado por el id.
-#Example     : http://127.0.0.1/services/?BC=globalmx_roles&id=1
+#Example     : http://192.185.36.179/services/?BC=globalmx_roles&id=1
 globalmx_roles:
     method: get
     app: controller
@@ -19,7 +19,7 @@ globalmx_pais:
 #Descripcion : Busca la region
 #Parametro   : idPais (Int)
 #Salida      : Todos las regiones del id del pais
-#Example     : http://127.0.0.1/services/?BC=globalmx_regionbypais&idPais=53
+#Example     : http://192.185.36.179/services/?BC=globalmx_regionbypais&idPais=53
 globalmx_regionbypais:
 	method: get
 	app: controller
@@ -28,7 +28,7 @@ globalmx_regionbypais:
 #Descripcion : Obtiene la ciudad dentro de una region
 #Parametro   : idRegion (Int)
 #Salida      : Lista de ciudades dentro de una region
-#Example     : http://127.0.0.1/services/?BC=globalmx_ciudadbyregion&idRegion=3680
+#Example     : http://192.185.36.179/services/?BC=globalmx_ciudadbyregion&idRegion=3680
 globalmx_ciudadbyregion:
 	method: get
 	app: controller
@@ -39,7 +39,7 @@ globalmx_ciudadbyregion:
 #Parametro   : numTarjeta
 #			   numPin
 #Salida      : Da Acceso al modulo de Activación de tarjeta.
-#Example     : http://127.0.0.1/services/?BC=globalmx_activetarjetastep1&numTarjeta=1886934616765905&numPin=5476
+#Example     : http://192.185.36.179/services/?BC=globalmx_activetarjetastep1&numTarjeta=1886934616765905&numPin=5476
 globalmx_activetarjetastep1:
 	method: post
 	app: controller
@@ -60,7 +60,7 @@ globalmx_activetarjetastep1:
 #			   fecha_nacimiento
 #			   pin
 #Salida      : Respuesta de Exito, Tarjeta activada.
-#Example     :http://127.0.0.1/services/?BC=globalmx_activetarjetastep2&cedula=3242&tarjeta=1886934616766151&ciudad=10&nombre=asdas&apellido=asd&direccion=asdsaasdas&barrio=asdsa&telefono=23223&celular=342343&email=asdas&fecha_nacimiento=2015/03/03&pin=6733
+#Example     :http://192.185.36.179/services/?BC=globalmx_activetarjetastep2&cedula=3242&tarjeta=1886934616766151&ciudad=10&nombre=asdas&apellido=asd&direccion=asdsaasdas&barrio=asdsa&telefono=23223&celular=342343&email=asdas&fecha_nacimiento=2015/03/03&pin=6733
 globalmx_activetarjetastep2:
 	method: post
 	app: controller
@@ -71,6 +71,7 @@ globalmx_activetarjetastep2:
 #Parametro   : user (String)
 #			   password (String)
 #Salida      : Da Acceso a la aplicación de administración global max
+#Example     : http://192.185.36.179/services/?BC=globalmx_v4lidateuser&user=admin&password=admin
 globalmx_v4lidateuser:
 	method: get
 	app: controller
@@ -82,19 +83,28 @@ globalmx_v4lidateuser:
 #              user   String
 #              contrasena String
 #Salida      : Retorna mensaje de Exito o Error segun caso cumplido.
-#Example     : http://127.0.0.1/services/?BC=globalmx_cr3ateuser&rol=1&cedula=112321321&user=juandavid&pass=twixtwix
+#Example     : http://192.185.36.179/services/?BC=globalmx_cr3ateuser&rol=1&cedula=112321321&user=juandavid&pass=twixtwix
 globalmx_cr3ateuser:
 	method: get
 	app: controller
 	module: ControllerUsuario
 	action: createUser
+#Descripcion : Permite eliminar un usuario en la base de datos.
+#Parametro   : id    int()
+#Salida      : Retorna mensaje de Exito o Error segun caso cumplido.
+#Example     : http://192.185.36.179/services/?BC=globalmx_d3let3user&id=1
+globalmx_d3let3user:
+	method: get
+	app: controller
+	module: ControllerUsuario
+	action: deleteUser
 #Descripcion : Permite crear el menu de AppGlobalMax
 #Parametro   : rol    int()
 #              cedula int()
 #              user   String
 #              contrasena String
 #Salida      : Retorna mensaje de Exito o Error segun caso cumplido.
-#Example     : http://127.0.0.1/services/?BC=globalmx_menu&documento=13
+#Example     : http://192.185.36.179/services/?BC=globalmx_menu&documento=13
 globalmx_menu:
 	method: get
 	app: controller
@@ -106,7 +116,7 @@ globalmx_menu:
 #Salida      : Si no ingresa numTarjeta ni estado : Lista todas las tarjetas
 #              Si no ingresa numTarjeta y estado : Lista todas las tarjetas segun el estado
 #              Si ingresa numTarjeta : Muestra la tarjeta con el numero si existe.
-#Example     : http://127.0.0.1/services/?BC=globalmx_gettarjeta&nit=805009514&trama=503
+#Example     : http://192.185.36.179/services/?BC=globalmx_gettarjeta&nit=805009514&trama=503
 globalmx_gettarjeta:
 	method: get
 	app: controller
@@ -121,7 +131,7 @@ globalmx_gettarjeta:
 #Salida      : Si se realiza una recarga retorna : Transaccion Exitosa.
 #			   Si se realiza una compra retorna : Compra Exitosa.
 #              Si no se puede realizar la transaccion retorna : Error en la transaccion.
-#Example     : http://127.0.0.1/services/?BC=globalmxt1&tarjeta=1886934616766149&valor=999999&nit=805009514&punto=23&trama=503
+#Example     : http://192.185.36.179/services/?BC=globalmxt1&tarjeta=1886934616766149&valor=999999&nit=805009514&punto=23&trama=503
 globalmxt1:
 	method: get
 	app: controller
@@ -133,7 +143,7 @@ globalmxt1:
 #              trama   (String)
 #Salida      : Valida si la tarjeta ya fue comprada y esta lista para transaccion retorna : 2
 #              Valida si la tarjeta no a sido comprada para realizar la compra retorna : 1
-#Example     : http://127.0.0.1/services/?BC=globalmxt2&tarjeta=1886934616766149&nit=805009514&trama=503
+#Example     : http://192.185.36.179/services/?BC=globalmxt2&tarjeta=1886934616766149&nit=805009514&trama=503
 globalmxt2:
 	method: get
 	app: controller

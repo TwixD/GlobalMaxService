@@ -114,5 +114,41 @@ class ControllerUsuario {
                     exit(0);
                 }
     }
+    public function deleteUser(){
+        printSuccessLog('Ingreso al metodo.' ,get_class($this),__FUNCTION__);
+            $id = getParam('id');
+            if (is_null($id)) {
+                printErrorLog(USUARIO_ERROR_6,get_class($this),__FUNCTION__);
+                processFailed(EMPTY_FIELD,USUARIO_ERROR_6);
+                exit(0);
+            }
+         try{ 
+             $post = Usuario::find_by_id_usuario($id);
+             if(is_null($post->id_usuario)){
+                 processFailed(NO_EXIST,USUARIO_ERROR_7);
+                 printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+                 exit(0);
+             }
+             try{
+                     if($post->delete() == 1){
+                        processSuccess(USUARIO_SUCCES_3);
+                        printSuccessLog(USUARIO_SUCCES_3,get_class($this),__FUNCTION__);
+                     }
+                     else{
+                         processFailed(ERR,USUARIO_ERROR_8);
+                         printErrorLog(USUARIO_ERROR_8,get_class($this),__FUNCTION__);
+                         exit(0);
+                     }
+                } catch (ActiveRecord\DatabaseException $e){
+                         processFailed(ERR,USUARIO_ERROR_8);
+                         printErrorLog(USUARIO_ERROR_8,get_class($this),__FUNCTION__);
+                         exit(0);
+                } 
+            } catch (ActiveRecord\RecordNotFound $e) {
+                 processFailed(NO_EXIST,USUARIO_ERROR_7);
+                 printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+                 exit(0);
+            }
+    }
 }
 ?>

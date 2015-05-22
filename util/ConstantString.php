@@ -30,6 +30,7 @@ define('MSG_JSON', '{"msg":"');
 define('MSG_JSON2', '"}');
 #-------------.............--MESSAGE ERROR USERS--------------------------
 #GENERAL ERROS
+define('ERR', 'Error');
 define('NO_EXIST', 'No existe');
 define('EMPTY_FIELD', 'Vacio');
 define('WRONG_CAMP', 'Erroneo');
@@ -59,6 +60,9 @@ define('USUARIO_ERROR_2', 'Ingrese el password por favor.');
 define('USUARIO_ERROR_3', 'Credenciales no validas.');
 define('USUARIO_ERROR_4', 'Todos los campos son necesarios.');
 define('USUARIO_ERROR_5', 'Cambie el nombre del usuario.');
+define('USUARIO_ERROR_6', 'Ingrese el id del usuario');
+define('USUARIO_ERROR_7', 'El usuario no fue encontrado');
+define('USUARIO_ERROR_8', 'No es posible eliminar el usuario, tiene tarjetas asignadas');
 #PERSONA ERRORS
 define('PERSONA_ERROR_1', 'Ingrese la cedula por favor');
 define('PERSONA_ERROR_2', 'Ingrese el numero de tarjeta por favor');
@@ -86,6 +90,8 @@ define('COMPILED_FILE', 'config/route/cache/main.yaml');
 #-------------.............--MESSAGE SUCCESS USERS------------------------
 define('USUARIO_SUCCES_1', '{"msg":"Acceso garantizado"}');
 define('USUARIO_SUCCES_2', '{"msg":"El usuario a sido creado"}');
+define('USUARIO_SUCCES_3', '{"msg":"El usuario fue eliminado"}');
+
 #PERSONA SUCCESS
 define('PERSONA_SUCCES_1', '{"msg":"Tarjeta Activada"}');
 #TRANSATION SUCCESS
