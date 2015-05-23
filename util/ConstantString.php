@@ -5,13 +5,13 @@
 define('CON_HOST', 'localhost');
 define('CON_USER', 'globalmx_ws');
 define('CON_PASS', '+ZFv51F!A1U-');
-define('CON_DB', 'globalmx_ws');*/
+define('CON_DB', 'globalmx_ws');
+*/
 //DESARROLLO
 define('CON_HOST', 'localhost');
 define('CON_USER', 'root');
 define('CON_PASS', 'twix');
 define('CON_DB', 'globalmx');
-
 #PARAMETROS CONFIG
 define('MIN_RECARGA', 10000);
 define('MAX_RECARGA', 10000000);

@@ -10116,3 +10116,6 @@
 [22-05-2015 17:44:06]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
 [22-05-2015 17:44:28]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
 [22-05-2015 17:44:53]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[23-05-2015 14:33:58]:[ControllerUsuario][listUser]:Entro metodo....
+[23-05-2015 14:33:58]:[ControllerUsuario][listUser]:Encontro usuarios.
+[23-05-2015 14:33:58]:[ControllerUsuario][listUser]:Imprime Usuarios.

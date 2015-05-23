@@ -98,6 +98,15 @@ globalmx_d3let3user:
 	app: controller
 	module: ControllerUsuario
 	action: deleteUser
+#Descripcion : Permite listar todos los usurios de la base de datos
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todos los usuarios
+#Example     : http://192.185.36.179/services/?BC=globalmx_l1stuser
+globalmx_l1stuser:
+	method: get
+	app: controller
+	module: ControllerUsuario
+	action: listUser
 #Descripcion : Permite crear el menu de AppGlobalMax
 #Parametro   : rol    int()
 #              cedula int()

@@ -64,6 +64,13 @@ $data = array (
     'module' => 'ControllerUsuario',
     'action' => 'deleteUser',
   ),
+  'globalmx_l1stuser' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerUsuario',
+    'action' => 'listUser',
+  ),
   'globalmx_menu' => 
   array (
     'method' => 'get',

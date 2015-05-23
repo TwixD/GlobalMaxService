@@ -126,7 +126,7 @@ class ControllerUsuario {
              $post = Usuario::find_by_id_usuario($id);
              if(is_null($post->id_usuario)){
                  processFailed(NO_EXIST,USUARIO_ERROR_7);
-                 printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+                 printErrorLog(USUARIO_ERROR_7,get_class($this),__FUNCTION__);
                  exit(0);
              }
              try{
@@ -150,5 +150,25 @@ class ControllerUsuario {
                  exit(0);
             }
     }
+
+    public function listUser(){
+            try{
+            printSuccessLog('Entro metodo....',get_class($this),__FUNCTION__);
+            $data = Usuario::find('all');
+            printSuccessLog('Encontro usuarios.',get_class($this),__FUNCTION__);
+            $concact = null;
+                foreach ($data as $key) {
+                    $json = $key->to_json();
+                    $concac.=$json.',';
+                }
+            $concac = substr($concac, 0, strlen($concac) - 1);
+            processSuccess($concac);
+            printSuccessLog('Imprime Usuarios.',get_class($this),__FUNCTION__);
+            } catch (ActiveRecord\RecordNotFound $e) {
+                processFailed(NO_EXIST,USUARIO_ERROR_7);
+                printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            }
+    }
+
 }
 ?>
