@@ -10119,3 +10119,168 @@
 [23-05-2015 14:33:58]:[ControllerUsuario][listUser]:Entro metodo....
 [23-05-2015 14:33:58]:[ControllerUsuario][listUser]:Encontro usuarios.
 [23-05-2015 14:33:58]:[ControllerUsuario][listUser]:Imprime Usuarios.
+[23-05-2015 16:22:43]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[23-05-2015 16:22:48]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[26-05-2015 11:10:52]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[26-05-2015 13:46:52]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[26-05-2015 16:03:59]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[26-05-2015 16:04:06]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[26-05-2015 16:04:12]:[ControllerUsuario][deleteUser]:Ingreso al metodo.
+[26-05-2015 16:04:12]:[ControllerUsuario][deleteUser]:{"msg":"El usuario fue eliminado"}
+[29-05-2015 13:41:19]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 13:41:25]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:20:45]:[ControllerUsuario][createUser]:Ingreso al metodo.
+[29-05-2015 14:24:01]:[ControllerUsuario][createUser]:Ingreso al metodo.
+[29-05-2015 14:24:01]:[ControllerUsuario][createUser]:Campos : ROL[1] CEDULA[112321321] USER :[juandavid]
+[29-05-2015 14:24:20]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:24:26]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:24:26]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[112321321] USER :[juandavid]
+[29-05-2015 14:24:38]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:24:38]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[112321321] USER :[twixgameattack]
+[29-05-2015 14:24:38]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:24:38]:[ControllerUsuario][updateUser]:Usuario Creado : [twixgameattack]
+[29-05-2015 14:29:50]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:29:50]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[112321321] USER :[twixgameattack]
+[29-05-2015 14:34:55]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:34:55]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[112321321] USER :[twixgameattack]
+[29-05-2015 14:42:32]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:42:32]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[112321321] USER :[twixgameattack]
+[29-05-2015 14:42:32]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:42:32]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:42:48]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:42:48]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:42:48]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:42:48]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:42:50]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:42:50]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:42:50]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:42:50]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:43:04]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:43:04]:[ControllerUsuario][updateUser]:Campos : ROL[4] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:43:04]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:43:04]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:43:11]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:43:11]:[ControllerUsuario][updateUser]:Campos : ROL[5] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:43:11]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:43:11]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:43:17]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:43:17]:[ControllerUsuario][updateUser]:Campos : ROL[6] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:43:17]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:43:53]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:43:53]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:43:53]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:43:53]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:44:08]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:44:08]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:44:08]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:44:13]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:44:13]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:44:13]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:44:16]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:44:16]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:44:16]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:44:19]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:44:19]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:44:19]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:44:19]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:46:34]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:46:34]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:46:34]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:46:42]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:46:42]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:46:42]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:47:48]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:47:48]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:47:48]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:49:28]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:50:38]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:50:38]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:50:38]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:52:36]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:52:36]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:52:36]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:52:41]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:52:41]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:52:41]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:52:43]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:52:43]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:52:43]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:52:44]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:52:44]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:52:44]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:52:47]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:52:47]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:52:47]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:52:47]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 14:52:56]:[ControllerUsuario][updateUser]:Ingreso al metodo.
+[29-05-2015 14:52:56]:[ControllerUsuario][updateUser]:Campos : ROL[1] CEDULA[1123213213] USER :[twixgameattack]
+[29-05-2015 14:52:56]:[ControllerUsuario][updateUser]:Disponible. Usuario : [twixgameattack]
+[29-05-2015 14:52:56]:[ControllerUsuario][updateUser]:Usuario Modificado : [twixgameattack]
+[29-05-2015 15:00:39]:[ControllerUsuario][listUser]:Entro metodo....
+[29-05-2015 15:00:39]:[ControllerUsuario][listUser]:Encontro usuarios.
+[29-05-2015 15:00:39]:[ControllerUsuario][listUser]:Imprime Usuarios.
+[29-05-2015 15:00:54]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:00:54]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:00:54]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:00:54]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:01:19]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:01:19]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:01:19]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:01:19]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:01:19]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:01:19]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:02:20]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:02:20]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:02:20]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:02:20]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:02:21]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:02:21]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:02:31]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:02:31]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:02:32]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:02:32]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:02:56]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:02:56]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:03:31]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:03:31]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:03:37]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:03:37]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:04:14]:[ControllerUsuario][listUser]:Entro metodo....
+[29-05-2015 15:04:14]:[ControllerUsuario][listUser]:Encontro usuarios.
+[29-05-2015 15:04:14]:[ControllerUsuario][listUser]:Imprime Usuarios.
+[29-05-2015 15:05:15]:[ControllerUsuario][listUser]:Entro metodo....
+[29-05-2015 15:05:15]:[ControllerUsuario][listUser]:Encontro usuarios.
+[29-05-2015 15:05:15]:[ControllerUsuario][listUser]:Imprime Usuarios.
+[29-05-2015 15:05:16]:[ControllerUsuario][listUser]:Entro metodo....
+[29-05-2015 15:05:16]:[ControllerUsuario][listUser]:Encontro usuarios.
+[29-05-2015 15:05:16]:[ControllerUsuario][listUser]:Imprime Usuarios.
+[29-05-2015 15:05:20]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:05:20]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:05:58]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:05:58]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:05:59]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:05:59]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:06:06]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:06:06]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:07:07]:[ControllerRol][getRolById]:Buscando id:1
+[29-05-2015 15:07:07]:[ControllerRol][getRolById]:Encontro id:1
+[29-05-2015 15:07:07]:[ControllerRol][getRolById]:Exito    id:1
+[29-05-2015 15:08:08]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:08:08]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:08:08]:[ControllerUsuario][listUserById]:Imprime Usuarios.
+[29-05-2015 15:08:09]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:08:09]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:08:09]:[ControllerUsuario][listUserById]:Imprime Usuarios.
+[29-05-2015 15:08:09]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:08:09]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:08:09]:[ControllerUsuario][listUserById]:Imprime Usuarios.
+[29-05-2015 15:08:56]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:08:56]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:08:56]:[ControllerUsuario][listUserById]:Imprime Usuarios.
+[29-05-2015 15:08:58]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:08:58]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:08:58]:[ControllerUsuario][listUserById]:Imprime Usuarios.
+[29-05-2015 15:09:01]:[ControllerUsuario][listUserById]:Entro metodo....
+[29-05-2015 15:09:01]:[ControllerUsuario][listUserById]:Encontro usuarios.
+[29-05-2015 15:09:01]:[ControllerUsuario][listUserById]:Imprime Usuarios.
+[29-05-2015 15:09:05]:[ControllerUsuario][listUserById]:Entro metodo....

@@ -107,6 +107,24 @@ globalmx_l1stuser:
 	app: controller
 	module: ControllerUsuario
 	action: listUser
+#Descripcion : Permite listar todos los usurios de la base de datos por ID
+#Parametro   : id (int)
+#Salida      : Si encuentra el usuario lo retorna
+#Example     : http://192.185.36.179/services/?BC=globalmx_l1stuserby1d&id=1
+globalmx_l1stuserby1d:
+	method: get
+	app: controller
+	module: ControllerUsuario
+	action: listUserById
+#Descripcion : Permite actualizar el usuario
+#Parametro   : 
+#Salida      : Mensaje de exito si actualiza el usuario.
+#Example     : http://192.185.36.179/services/?BC=globalmx_upd4teuser&rol=1&cedula=112321321&user=juandavid&pass=twixtwix
+globalmx_upd4teuser:
+	method: get
+	app: controller
+	module: ControllerUsuario
+	action: updateUser
 #Descripcion : Permite crear el menu de AppGlobalMax
 #Parametro   : rol    int()
 #              cedula int()

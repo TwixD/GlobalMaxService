@@ -91,6 +91,7 @@ define('COMPILED_FILE', 'config/route/cache/main.yaml');
 define('USUARIO_SUCCES_1', '{"msg":"Acceso garantizado"}');
 define('USUARIO_SUCCES_2', '{"msg":"El usuario a sido creado"}');
 define('USUARIO_SUCCES_3', '{"msg":"El usuario fue eliminado"}');
+define('USUARIO_SUCCES_4', '{"msg":"El usuario a sido modificado"}');
 
 #PERSONA SUCCESS
 define('PERSONA_SUCCES_1', '{"msg":"Tarjeta Activada"}');

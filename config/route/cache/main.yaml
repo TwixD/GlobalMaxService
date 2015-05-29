@@ -71,6 +71,20 @@ $data = array (
     'module' => 'ControllerUsuario',
     'action' => 'listUser',
   ),
+  'globalmx_l1stuserby1d' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerUsuario',
+    'action' => 'listUserById',
+  ),
+  'globalmx_upd4teuser' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerUsuario',
+    'action' => 'updateUser',
+  ),
   'globalmx_menu' => 
   array (
     'method' => 'get',

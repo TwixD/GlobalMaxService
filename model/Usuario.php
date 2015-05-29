@@ -19,4 +19,7 @@ class Usuario extends ActiveRecord\Model
  		$this->fecha_registro = date('Y-m-d',strtotime('now'));
  		$this->contrasena = md5($this->contrasena);
  	}
+ 	public function before_update(){
+ 		$this->contrasena = md5($this->contrasena);
+ 	}
 }
