@@ -274,3 +274,60 @@ globalmx_listpin:
 	app: controller
 	module: ControllerPin
 	action: listPin
+#Descripcion : Permite crear estados
+#Parametro   : descripcion    varchar(45)
+#Salida      : Retorna mensaje de exito si el estado fue creado
+#Example     : http://192.185.36.179/services/?BC=globalmx_createestado&descripcion=Prueba
+globalmx_createestado:
+	method: get
+	app: controller
+	module: ControllerEstado
+	action: createEstado
+#Descripcion : Permite actualizar estados
+#Parametro   : idEstado        int(11)
+#              descripcion     varchar(45)
+#Salida      : Retorna mensaje de exito si el estado fue modificada
+#Example     : http://192.185.36.179/services/?BC=globalmx_updateestado&idEstado=5&descripcion=Prueba2
+globalmx_updateestado:
+	method: get
+	app: controller
+	module: ControllerEstado
+	action: updateEstado
+#Descripcion : Permite listar todas los estados
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todos los estados  que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listestado
+globalmx_listestado:
+	method: get
+	app: controller
+	module: ControllerEstado
+	action: listEstado
+#Descripcion : Permite crear impresiones
+#Parametro   : codigo 		  varchar(4)
+#			   descripcion    varchar(100)
+#Salida      : Retorna mensaje de exito si la impresion fue creada
+#Example     : http://192.185.36.179/services/?BC=globalmx_createimpresion&codigo=PRUE&descripcion=Prueba
+globalmx_createimpresion:
+	method: get
+	app: controller
+	module: ControllerImpresion
+	action: createImpresion
+#Descripcion : Permite actualizar estados
+#Parametro   : idEstado        int(11)
+#              descripcion     varchar(45)
+#Salida      : Retorna mensaje de exito si el estado fue modificada
+#Example     : http://192.185.36.179/services/?BC=globalmx_updateimpresion&idglobalmxImpresion=5&codigo=PR&descripcion=Prueba2
+globalmx_updateimpresion:
+	method: get
+	app: controller
+	module: ControllerImpresion
+	action: updateImpresion
+#Descripcion : Permite listar todas las impresiones
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todos las impresiones  que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listimpresion
+globalmx_listimpresion:
+	method: get
+	app: controller
+	module: ControllerImpresion
+	action: listImpresion

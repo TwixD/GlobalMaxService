@@ -779,3 +779,4 @@ HOLA
 [04-06-2015 10:58:42]:[ControllerTarjeta][updateTarjeta]:23000, 1452, Cannot add or update a child row: a foreign key constraint fails (`globalmx`.`globalmx_tarjeta`, CONSTRAINT `fk_globalmx_tarjeta_globalmx_usuario1` FOREIGN KEY (`globalmx_usuario_id_usuario`) REFERENCES `globalmx_usuario` (`id_usuario`) ON DELETE NO ACTION O)
 [04-06-2015 14:17:30]:[ControllerEmpresa][createEmpresa]:23000, 1062, Duplicate entry '123123' for key 'PRIMARY'
 [04-06-2015 14:19:54]:[ControllerEmpresa][updateEmpresa]:Couldn't find Empresa with ID=123123232
+[04-06-2015 15:56:43]:[ControllerEstado][updateEstado]:Couldn't find Estado with ID=5

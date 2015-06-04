@@ -169,6 +169,48 @@ $data = array (
     'module' => 'ControllerPin',
     'action' => 'listPin',
   ),
+  'globalmx_createestado' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerEstado',
+    'action' => 'createEstado',
+  ),
+  'globalmx_updateestado' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerEstado',
+    'action' => 'updateEstado',
+  ),
+  'globalmx_listestado' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerEstado',
+    'action' => 'listEstado',
+  ),
+  'globalmx_createimpresion' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerImpresion',
+    'action' => 'createImpresion',
+  ),
+  'globalmx_updateimpresion' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerImpresion',
+    'action' => 'updateImpresion',
+  ),
+  'globalmx_listimpresion' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerImpresion',
+    'action' => 'listImpresion',
+  ),
 );
 
 ?>

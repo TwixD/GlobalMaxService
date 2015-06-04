@@ -1,16 +1,16 @@
 <?php
 #CONEXION
 //PRODUCCION
+/*
 define('CON_HOST', 'localhost');
 define('CON_USER', 'globalmx_ws');
 define('CON_PASS', '+ZFv51F!A1U-');
-define('CON_DB', 'globalmx_ws');
+define('CON_DB', 'globalmx_ws');*/
 //DESARROLLO
-/*
 define('CON_HOST', 'localhost');
 define('CON_USER', 'root');
 define('CON_PASS', 'twix');
-define('CON_DB', 'globalmx');*/
+define('CON_DB', 'globalmx');
 #PARAMETROS CONFIG
 define('MIN_RECARGA', 10000);
 define('MAX_RECARGA', 10000000);
@@ -56,6 +56,10 @@ define('TARJETA_ERROR_6', 'No se pudo modificar la tarjeta');
 define('PIN_ERROR_1', 'Ingrese el numero de pin.');
 define('PIN_ERROR_2', 'Ingrese un numero de pin correcto.');
 define('PIN_ERROR_3', 'Pin no asignado a la tarjeta.');
+define('PIN_ERROR_4', 'No se pudo guardar el pin');
+define('PIN_ERROR_5', 'No se pudo modificar el pin');
+define('PIN_ERROR_6', 'No se pudo encontrar el pin');
+define('PIN_ERROR_7', 'No se encuentran Pines.');
 #USUARIO ERRORS
 define('USUARIO_ERROR_1', 'Ingrese el usuario por favor.');
 define('USUARIO_ERROR_2', 'Ingrese el password por favor.');
@@ -80,6 +84,10 @@ define('PERSONA_ERROR_11', 'Ingrese la fecha de nacimiento por favor');
 define('PERSONA_ERROR_12', 'Ya hay un cliente registrado con la cedula');
 #ESTADO ERRORS
 define('ESTADO_ERROR_1', 'Estado invalido.');
+define('ESTADO_ERROR_2', 'No se pudo modificar el estado');
+define('ESTADO_ERROR_3', 'No se pudo encontrar el estado');
+define('ESTADO_ERROR_4', 'No se encuentran Estados.');
+define('ESTADO_ERROR_5', 'No se pudo guardar el estado');
 #TRANSATION ERRORS
 define('TRANSA_ERROR_1', 'Ingrese el valor a recargar.');
 define('TRANSA_ERROR_2', 'El valor minimo a recargar es :');
@@ -90,11 +98,11 @@ define('EMPRESA_ERROR_1', 'No se pudo guardar la empresa');
 define('EMPRESA_ERROR_2', 'No se pudo modificar la empresa');
 define('EMPRESA_ERROR_3', 'No se pudo encontrar la empresa');
 define('EMPRESA_ERROR_4', 'No se encuentran Empresas.');
-#PIN ERRORS
-define('PIN_ERROR_1', 'No se pudo guardar el pin');
-define('PIN_ERROR_2', 'No se pudo modificar el pin');
-define('PIN_ERROR_3', 'No se pudo encontrar el pin');
-define('PIN_ERROR_4', 'No se encuentran Pines.');
+#IMPRESION ERRORS
+define('IMPRESION_ERROR_1', 'No se pudo guardar la impresion');
+define('IMPRESION_ERROR_2', 'No se pudo modificar la impresion');
+define('IMPRESION_ERROR_3', 'No se pudo encontrar la impresion');
+define('IMPRESION_ERROR_4', 'No se encuentran impresiones.');
 #-------------------------------------------------------------------------
 #YAML
 define('ORIGINAL_FILE', 'config/route/main.yaml');
@@ -118,4 +126,10 @@ define('EMPRESA_SUCCES_2', '{"msg":"La empresa a sido modificada"}');
 #PIN SUCCESS
 define('PIN_SUCCES_1', '{"msg":"Pin creado"}');
 define('PIN_SUCCES_2', '{"msg":"El pin a sido modificado"}');
+#ESTADO SUCCESS 
+define('ESTADO_SUCCES_1', '{"msg":"Estado creado"}');
+define('ESTADO_SUCCES_2', '{"msg":"El estado a sido modificado"}');
+#IMPRESION SUCCESS
+define('IMPRESION_SUCCES_1', '{"msg":"Impresion creado"}');
+define('IMPRESION_SUCCES_2', '{"msg":"La impresion a sido modificada"}');
 ?>
