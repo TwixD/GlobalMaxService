@@ -176,3 +176,33 @@ globalmxt2:
 	app: controller
 	module: ControllerTarjeta
 	action: tipoTransation
+#Descripcion : Permite crear tarjetas
+#Parametro   : numero    (bigint)(20)
+#              estado    (int)(11)
+#              usuario   (bigint)(11)
+#              precio    (bigint)(20)
+#              vendedor  (int)(11)
+#              impresion ((int)(11)
+#              precio (bigint)
+#Salida      : Retorna mensaje de exito si la tarjeta fue creada
+#Example     : http://192.185.36.179/services/?BC=globalmx_createtarjeta&numero=9999999999999999&estado=2&usuario=1&precio=45000&vendedor=1&impresion=4
+globalmx_createtarjeta:
+	method: get
+	app: controller
+	module: ControllerTarjeta
+	action: createTarjeta
+#Descripcion : Permite modificar las tarjetas
+#Parametro   : numero    (bigint)(20)
+#              estado    (int)(11)
+#              usuario   (bigint)(11)
+#              precio    (bigint)(20)
+#              vendedor  (int)(11)
+#              impresion ((int)(11)
+#              precio (bigint)
+#Salida      : Retorna mensaje de exito si la tarjeta fue modificada
+#Example     : http://192.185.36.179/services/?BC=globalmx_updatetarjeta&numero=9999999999999999&precio=10000&usuario=1&estado=3&vendedor=2&impresion=1
+globalmx_updatetarjeta:
+	method: get
+	app: controller
+	module: ControllerTarjeta
+	action: updateTarjeta

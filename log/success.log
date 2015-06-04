@@ -10284,3 +10284,6 @@
 [29-05-2015 15:09:01]:[ControllerUsuario][listUserById]:Encontro usuarios.
 [29-05-2015 15:09:01]:[ControllerUsuario][listUserById]:Imprime Usuarios.
 [29-05-2015 15:09:05]:[ControllerUsuario][listUserById]:Entro metodo....
+[04-06-2015 10:33:59]:[ControllerPais][getAllPais]:Entro metodo....
+[04-06-2015 10:33:59]:[ControllerPais][getAllPais]:Encontro paises.
+[04-06-2015 10:33:59]:[ControllerPais][getAllPais]:Imprime Paises.

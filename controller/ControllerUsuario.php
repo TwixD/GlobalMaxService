@@ -260,6 +260,5 @@ class ControllerUsuario {
                     exit(0);
                 }
     }
-
 }
 ?>

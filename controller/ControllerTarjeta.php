@@ -205,6 +205,7 @@ class ControllerTarjeta{
 		        	$retorno = $transaccion->save();
 		  	        printTransationLog('Transaccion de recarga Exitosa.',get_class($this),__FUNCTION__);
 		       		processSuccess(TRANS_SUCCES_1);
+		       		sendMailRecharge($transaccion);
 					printTransationLog('----------------Fin transaccion----------------',get_class($this),__FUNCTION__);
 		        }catch(Exception $e) {
 		        	//La transaccion no se pudo guardar.
@@ -243,6 +244,7 @@ class ControllerTarjeta{
 		        	$data->save();
 		        	printTransationLog('Transaccion de compra Exitosa. Pin activacion :'.$pinAsing,get_class($this),__FUNCTION__);
 		       		processSuccess(MSG_JSON.$pinAsing.MSG_JSON2);
+					sendMailBuy($transaccion);
 					printTransationLog('----------------Fin transaccion----------------',get_class($this),__FUNCTION__);
 		        }catch(Exception $e) {
 		        	//No puede realizar la transaccion
@@ -310,6 +312,71 @@ class ControllerTarjeta{
 			printTransationLog(ESTADO_ERROR_1,get_class($this),__FUNCTION__);
 			exit(0);
 			break;
+		}
+	}
+
+	public function createTarjeta(){
+		$tarjeta = new Tarjeta();
+		$tarjeta->numero = getParam('numero');
+		$tarjeta->globalmx_estado_id_estado = getParam('estado');
+		$tarjeta->globalmx_usuario_id_usuario = getParam('usuario');	
+		$tarjeta->precio = getParam('precio');
+		$tarjeta->globalmx_vendedor_id_vendedor = getParam('vendedor');
+		$tarjeta->idglobalmx_impresion = getParam('impresion');
+		try{
+			$ret = $tarjeta->save();
+			if($ret == false){
+		   		 processFailed(ERR,TARJETA_ERROR_4);
+		  		 exit(0);
+			}else{
+                 processSuccess(TARJETA_SUCCES_1);
+		  		 exit(0);
+			}
+		}catch(ActiveRecord\DatabaseException $e){
+		    processFailed(ERR,TARJETA_ERROR_4);
+		    printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+		    exit(0);
+		}
+	}
+
+
+	public function updateTarjeta(){
+		try{
+			$tarjeta = Tarjeta::find(getParam('numero'));
+		        if(!is_null(getParam('estado')) || strlen(getParam('estado')) > 0){
+					$tarjeta->globalmx_estado_id_estado = getParam('estado');
+		        }
+		        if(!is_null(getParam('usuario')) || strlen(getParam('usuario')) > 0){
+					$tarjeta->globalmx_usuario_id_usuario = getParam('usuario');
+		        }
+		        if(!is_null(getParam('precio')) || strlen(getParam('precio')) > 0){
+					$tarjeta->precio = getParam('precio');
+		        }
+		        if(!is_null(getParam('vendedor')) || strlen(getParam('vendedor')) > 0){
+					$tarjeta->globalmx_vendedor_id_vendedor = getParam('vendedor');
+		        }
+		        if(!is_null(getParam('impresion')) || strlen(getParam('impresion')) > 0){
+					$tarjeta->idglobalmx_impresion = getParam('impresion');
+		        }
+			try{
+				$ret = $tarjeta->save();
+			}catch(ActiveRecord\DatabaseException $e){
+		 	    processFailed(ERR,TARJETA_ERROR_6);
+		 		printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+		        exit(0);
+			}
+
+			if($ret == false){
+		   		 processFailed(ERR,TARJETA_ERROR_6);
+		  		 exit(0);
+			}else{
+                 processSuccess(TARJETA_SUCCES_2);
+		  		 exit(0);
+			}
+		}catch(ActiveRecord\RecordNotFound $e){
+			processFailed(ERR,TARJETA_ERROR_5);
+            printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            exit(0);
 		}
 	}
 }

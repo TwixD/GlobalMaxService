@@ -193,7 +193,7 @@ class ControllerPersona {
                                 $tarjeta = Tarjeta::find($persona->globalmx_tarjeta_numero);
                                 $tarjeta->update_attributes(array('globalmx_estado_id_estado' => 1, 'numero' => $persona->globalmx_tarjeta_numero));
                                 printSuccessLog('->Actualizando a estado ACTIVADO[1]',get_class($this),__FUNCTION__);
-                                //sendMail();
+                                sendMail($persona);
                                 $pin = Pin::find('first',
                                 array('conditions' => array('codigo = ?', $numberPin)));
                                 $pin->delete();

@@ -113,6 +113,20 @@ $data = array (
     'module' => 'ControllerTarjeta',
     'action' => 'tipoTransation',
   ),
+  'globalmx_createtarjeta' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerTarjeta',
+    'action' => 'createTarjeta',
+  ),
+  'globalmx_updatetarjeta' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerTarjeta',
+    'action' => 'updateTarjeta',
+  ),
 );
 
 ?>

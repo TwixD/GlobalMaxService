@@ -5,8 +5,7 @@
 define('CON_HOST', 'localhost');
 define('CON_USER', 'globalmx_ws');
 define('CON_PASS', '+ZFv51F!A1U-');
-define('CON_DB', 'globalmx_ws');
-*/
+define('CON_DB', 'globalmx_ws');*/
 //DESARROLLO
 define('CON_HOST', 'localhost');
 define('CON_USER', 'root');
@@ -16,7 +15,7 @@ define('CON_DB', 'globalmx');
 define('MIN_RECARGA', 10000);
 define('MAX_RECARGA', 10000000);
 #MAIL
-define('MAIL_ALLOW' , 'jdcastano@gane.com.co,juandavidcrivera@hotmail.com');
+define('MAIL_ALLOW' , 'juandavidcrivera@hotmail.com');
 #LOGS
 define('LOG_ERROR', 'log/error.log');
 define('LOG_SUCCESS', 'log/success.log');
@@ -50,6 +49,9 @@ define('CIUDAD_ERROR_2', 'La ciudad no existe.');
 define('TARJETA_ERROR_1', 'Ingrese el numero de tarjeta.');
 define('TARJETA_ERROR_2', 'Tarjeta invalida.');
 define('TARJETA_ERROR_3', 'Debe comprar la tarjeta.');
+define('TARJETA_ERROR_4', 'No se pudo guardar la tarjeta');
+define('TARJETA_ERROR_5', 'No se pudo encontrar la tarjeta');
+define('TARJETA_ERROR_6', 'No se pudo modificar la tarjeta');
 #PIN ERRORS
 define('PIN_ERROR_1', 'Ingrese el numero de pin.');
 define('PIN_ERROR_2', 'Ingrese un numero de pin correcto.');
@@ -92,10 +94,12 @@ define('USUARIO_SUCCES_1', '{"msg":"Acceso garantizado"}');
 define('USUARIO_SUCCES_2', '{"msg":"El usuario a sido creado"}');
 define('USUARIO_SUCCES_3', '{"msg":"El usuario fue eliminado"}');
 define('USUARIO_SUCCES_4', '{"msg":"El usuario a sido modificado"}');
-
 #PERSONA SUCCESS
 define('PERSONA_SUCCES_1', '{"msg":"Tarjeta Activada"}');
 #TRANSATION SUCCESS
 define('TRANS_SUCCES_1', '{"msg":"Transaccion Exitosa."}');
 define('TRANS_SUCCES_2', '{"msg":"Compra Exitosa."}');
+#TARJETA SUCCESS
+define('TARJETA_SUCCES_1', '{"msg":"Tarjeta creada"}');
+define('TARJETA_SUCCES_2', '{"msg":"La tarjeta a sido modificada"}');
 ?>
