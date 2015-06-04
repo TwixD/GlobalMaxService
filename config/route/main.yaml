@@ -228,7 +228,7 @@ globalmx_createempresa:
 #              ip  		  varchar(45)
 #              trama 	  varchar(45)
 #Salida      : Retorna mensaje de exito si la empresa fue modificada
-#Example     : http://192.185.36.179/services/?BC=globalmx_updateempresa&numero=9999999999999999&estado=2&usuario=1&precio=45000&vendedor=1&impresion=4
+#Example     : http://192.185.36.179/services/?BC=globalmx_updateempresa&nit=123123&nombre=Baloto&direccion=calle1&telefono=1231232&ip=192.250.0.21&trama=321
 globalmx_updateempresa:
 	method: get
 	app: controller
@@ -243,3 +243,34 @@ globalmx_listempresa:
 	app: controller
 	module: ControllerEmpresa
 	action: listEmpresa
+#Descripcion : Permite crear pines
+#Parametro   : numero    bigint(20) 
+#              codigo    varchar(45)
+#Salida      : Retorna mensaje de exito si el pin fue creado
+#Example     : http://192.185.36.179/services/?BC=globalmx_createpin&numero=1886934616761159&codigo=6666
+globalmx_createpin:
+	method: get
+	app: controller
+	module: ControllerPin
+	action: createPin
+#Descripcion : Permite actualizar pines
+#Parametro   : idPin        bigint(20)
+#              numero       bigint(20) 
+#              codigo       varchar(45)
+#              vencimiento  date
+#Salida      : Retorna mensaje de exito si el pin fue modificada
+#Example     : http://192.185.36.179/services/?BC=globalmx_updatepin&numero=1886934616761160&idPin=5001
+globalmx_updatepin:
+	method: get
+	app: controller
+	module: ControllerPin
+	action: updatePin
+#Descripcion : Permite listar todas los pines
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todos los pines en que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listpin
+globalmx_listpin:
+	method: get
+	app: controller
+	module: ControllerPin
+	action: listPin

@@ -1,16 +1,16 @@
 <?php
 #CONEXION
 //PRODUCCION
-/*
 define('CON_HOST', 'localhost');
 define('CON_USER', 'globalmx_ws');
 define('CON_PASS', '+ZFv51F!A1U-');
-define('CON_DB', 'globalmx_ws');*/
+define('CON_DB', 'globalmx_ws');
 //DESARROLLO
+/*
 define('CON_HOST', 'localhost');
 define('CON_USER', 'root');
 define('CON_PASS', 'twix');
-define('CON_DB', 'globalmx');
+define('CON_DB', 'globalmx');*/
 #PARAMETROS CONFIG
 define('MIN_RECARGA', 10000);
 define('MAX_RECARGA', 10000000);
@@ -90,6 +90,11 @@ define('EMPRESA_ERROR_1', 'No se pudo guardar la empresa');
 define('EMPRESA_ERROR_2', 'No se pudo modificar la empresa');
 define('EMPRESA_ERROR_3', 'No se pudo encontrar la empresa');
 define('EMPRESA_ERROR_4', 'No se encuentran Empresas.');
+#PIN ERRORS
+define('PIN_ERROR_1', 'No se pudo guardar el pin');
+define('PIN_ERROR_2', 'No se pudo modificar el pin');
+define('PIN_ERROR_3', 'No se pudo encontrar el pin');
+define('PIN_ERROR_4', 'No se encuentran Pines.');
 #-------------------------------------------------------------------------
 #YAML
 define('ORIGINAL_FILE', 'config/route/main.yaml');
@@ -110,4 +115,7 @@ define('TARJETA_SUCCES_2', '{"msg":"La tarjeta a sido modificada"}');
 #EMPRESA SUCCESS
 define('EMPRESA_SUCCES_1', '{"msg":"Empresa creada"}');
 define('EMPRESA_SUCCES_2', '{"msg":"La empresa a sido modificada"}');
+#PIN SUCCESS
+define('PIN_SUCCES_1', '{"msg":"Pin creado"}');
+define('PIN_SUCCES_2', '{"msg":"El pin a sido modificado"}');
 ?>

@@ -148,6 +148,27 @@ $data = array (
     'module' => 'ControllerEmpresa',
     'action' => 'listEmpresa',
   ),
+  'globalmx_createpin' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPin',
+    'action' => 'createPin',
+  ),
+  'globalmx_updatepin' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPin',
+    'action' => 'updatePin',
+  ),
+  'globalmx_listpin' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPin',
+    'action' => 'listPin',
+  ),
 );
 
 ?>
