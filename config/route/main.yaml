@@ -206,3 +206,40 @@ globalmx_updatetarjeta:
 	app: controller
 	module: ControllerTarjeta
 	action: updateTarjeta
+#Descripcion : Permite crear empresas
+#Parametro   : nit    	  int(11)
+#              nombre     varchar(45) 
+#              direccion  varchar(45)
+#              telefono   int(11) 
+#              ip  		  varchar(45)
+#              trama 	  varchar(45)
+#Salida      : Retorna mensaje de exito si la empresa fue creada
+#Example     : http://192.185.36.179/services/?BC=globalmx_createempresa&nit=123123&nombre=Baloto&direccion=calle1&telefono=1231232&ip=192.250.0.21&trama=321
+globalmx_createempresa:
+	method: get
+	app: controller
+	module: ControllerEmpresa
+	action: createEmpresa
+#Descripcion : Permite actualizar empresas
+#Parametro   : nit    	  int(11)
+#              nombre     varchar(45) 
+#              direccion  varchar(45)
+#              telefono   int(11) 
+#              ip  		  varchar(45)
+#              trama 	  varchar(45)
+#Salida      : Retorna mensaje de exito si la empresa fue modificada
+#Example     : http://192.185.36.179/services/?BC=globalmx_updateempresa&numero=9999999999999999&estado=2&usuario=1&precio=45000&vendedor=1&impresion=4
+globalmx_updateempresa:
+	method: get
+	app: controller
+	module: ControllerEmpresa
+	action: updateEmpresa
+#Descripcion : Permite listar todas las empresas
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todas las empresas en que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listempresa
+globalmx_listempresa:
+	method: get
+	app: controller
+	module: ControllerEmpresa
+	action: listEmpresa

@@ -80,11 +80,16 @@ define('PERSONA_ERROR_11', 'Ingrese la fecha de nacimiento por favor');
 define('PERSONA_ERROR_12', 'Ya hay un cliente registrado con la cedula');
 #ESTADO ERRORS
 define('ESTADO_ERROR_1', 'Estado invalido.');
-#TRANSATION ERROS
+#TRANSATION ERRORS
 define('TRANSA_ERROR_1', 'Ingrese el valor a recargar.');
 define('TRANSA_ERROR_2', 'El valor minimo a recargar es :');
 define('TRANSA_ERROR_3', 'El valor minimo a recargar es :');
 define('TRANSA_ERROR_4', 'Error en la transaccion.');
+#EMPRESA ERRORS
+define('EMPRESA_ERROR_1', 'No se pudo guardar la empresa');
+define('EMPRESA_ERROR_2', 'No se pudo modificar la empresa');
+define('EMPRESA_ERROR_3', 'No se pudo encontrar la empresa');
+define('EMPRESA_ERROR_4', 'No se encuentran Empresas.');
 #-------------------------------------------------------------------------
 #YAML
 define('ORIGINAL_FILE', 'config/route/main.yaml');
@@ -102,4 +107,7 @@ define('TRANS_SUCCES_2', '{"msg":"Compra Exitosa."}');
 #TARJETA SUCCESS
 define('TARJETA_SUCCES_1', '{"msg":"Tarjeta creada"}');
 define('TARJETA_SUCCES_2', '{"msg":"La tarjeta a sido modificada"}');
+#EMPRESA SUCCESS
+define('EMPRESA_SUCCES_1', '{"msg":"Empresa creada"}');
+define('EMPRESA_SUCCES_2', '{"msg":"La empresa a sido modificada"}');
 ?>

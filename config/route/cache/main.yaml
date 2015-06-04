@@ -127,6 +127,27 @@ $data = array (
     'module' => 'ControllerTarjeta',
     'action' => 'updateTarjeta',
   ),
+  'globalmx_createempresa' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerEmpresa',
+    'action' => 'createEmpresa',
+  ),
+  'globalmx_updateempresa' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerEmpresa',
+    'action' => 'updateEmpresa',
+  ),
+  'globalmx_listempresa' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerEmpresa',
+    'action' => 'listEmpresa',
+  ),
 );
 
 ?>
