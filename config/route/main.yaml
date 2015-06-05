@@ -331,3 +331,30 @@ globalmx_listimpresion:
 	app: controller
 	module: ControllerImpresion
 	action: listImpresion
+#Descripcion : Permite crear roles
+#Parametro   : descripcion    varchar(45) 
+#Salida      : Retorna mensaje de exito si el rol fue creado
+#Example     : http://192.185.36.179/services/?BC=globalmx_createrol&descripcion=Prueba
+globalmx_createrol:
+	method: get
+	app: controller
+	module: ControllerRol
+	action: createRol
+#Descripcion : Permite actualizar roles
+#Parametro   : descripcion     varchar(45) 
+#Salida      : Retorna mensaje de exito si el rol fue modificado
+#Example     : http://192.185.36.179/services/?BC=globalmx_updaterol&idRol=6&descripcion=Prueba2
+globalmx_updaterol:
+	method: get
+	app: controller
+	module: ControllerRol
+	action: updateRol
+#Descripcion : Permite listar todas los roles
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todos los roles  que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listrol
+globalmx_listrol:
+	method: get
+	app: controller
+	module: ControllerRol
+	action: listRol

@@ -38,6 +38,10 @@ define('ADV', 'Advertencia');
 define('TOTAL_FAILED', 'Comuniquese con el administrador');
 #ROL ERRORS
 define('ROL_ERROR_1', 'Por favor ingrese un identificador valido de Rol.');
+define('ROL_ERROR_2', 'No se pudo guardar el rol');
+define('ROL_ERROR_3', 'No se pudo modificar el rol');
+define('ROL_ERROR_4', 'No se pudo encontrar el rol');
+define('ROL_ERROR_5', 'No se encuentran roles.');
 #PAIS ERRORS
 define('PAIS_ERROR_1', 'No se encuentran Paises.');
 #REGION ERRORS
@@ -132,4 +136,7 @@ define('ESTADO_SUCCES_2', '{"msg":"El estado a sido modificado"}');
 #IMPRESION SUCCESS
 define('IMPRESION_SUCCES_1', '{"msg":"Impresion creado"}');
 define('IMPRESION_SUCCES_2', '{"msg":"La impresion a sido modificada"}');
+#ROL SUCCESS
+define('ROL_SUCCES_1', '{"msg":"Rol creado"}');
+define('ROL_SUCCES_2', '{"msg":"El rol a sido modificado"}');
 ?>

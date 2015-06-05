@@ -211,6 +211,27 @@ $data = array (
     'module' => 'ControllerImpresion',
     'action' => 'listImpresion',
   ),
+  'globalmx_createrol' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerRol',
+    'action' => 'createRol',
+  ),
+  'globalmx_updaterol' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerRol',
+    'action' => 'updateRol',
+  ),
+  'globalmx_listrol' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerRol',
+    'action' => 'listRol',
+  ),
 );
 
 ?>
