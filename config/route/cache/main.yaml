@@ -232,6 +232,41 @@ $data = array (
     'module' => 'ControllerRol',
     'action' => 'listRol',
   ),
+  'globalmx_createvendedor' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerVendedor',
+    'action' => 'createVendedor',
+  ),
+  'globalmx_updatevendedor' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerVendedor',
+    'action' => 'updateVendedor',
+  ),
+  'globalmx_listvendedor' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerVendedor',
+    'action' => 'listVendedor',
+  ),
+  'globalmx_updatepersona' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPersona',
+    'action' => 'updatePersona',
+  ),
+  'globalmx_listpersona' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPersona',
+    'action' => 'listPersona',
+  ),
 );
 
 ?>

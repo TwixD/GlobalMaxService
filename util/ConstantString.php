@@ -86,6 +86,9 @@ define('PERSONA_ERROR_9', 'Ingrese el celular por favor');
 define('PERSONA_ERROR_10', 'Ingrese el email por favor');
 define('PERSONA_ERROR_11', 'Ingrese la fecha de nacimiento por favor');
 define('PERSONA_ERROR_12', 'Ya hay un cliente registrado con la cedula');
+define('PERSONA_ERROR_13', 'No se pudo modificar la persona');
+define('PERSONA_ERROR_14', 'No se pudo encontrar la persona');
+define('PERSONA_ERROR_15', 'No se encuentran personas');
 #ESTADO ERRORS
 define('ESTADO_ERROR_1', 'Estado invalido.');
 define('ESTADO_ERROR_2', 'No se pudo modificar el estado');
@@ -107,6 +110,11 @@ define('IMPRESION_ERROR_1', 'No se pudo guardar la impresion');
 define('IMPRESION_ERROR_2', 'No se pudo modificar la impresion');
 define('IMPRESION_ERROR_3', 'No se pudo encontrar la impresion');
 define('IMPRESION_ERROR_4', 'No se encuentran impresiones.');
+#VENDEDOR ERRORS
+define('VENDEDOR_ERROR_1', 'No se pudo guardar el vendedor');
+define('VENDEDOR_ERROR_2', 'No se pudo modificar el vendedor');
+define('VENDEDOR_ERROR_3', 'No se pudo encontrar el vendedor');
+define('VENDEDOR_ERROR_4', 'No se encuentran vendedores.');
 #-------------------------------------------------------------------------
 #YAML
 define('ORIGINAL_FILE', 'config/route/main.yaml');
@@ -118,6 +126,7 @@ define('USUARIO_SUCCES_3', '{"msg":"El usuario fue eliminado"}');
 define('USUARIO_SUCCES_4', '{"msg":"El usuario a sido modificado"}');
 #PERSONA SUCCESS
 define('PERSONA_SUCCES_1', '{"msg":"Tarjeta Activada"}');
+define('PERSONA_SUCCES_2', '{"msg":"La persona a sido modificada"}');
 #TRANSATION SUCCESS
 define('TRANS_SUCCES_1', '{"msg":"Transaccion Exitosa."}');
 define('TRANS_SUCCES_2', '{"msg":"Compra Exitosa."}');
@@ -139,4 +148,7 @@ define('IMPRESION_SUCCES_2', '{"msg":"La impresion a sido modificada"}');
 #ROL SUCCESS
 define('ROL_SUCCES_1', '{"msg":"Rol creado"}');
 define('ROL_SUCCES_2', '{"msg":"El rol a sido modificado"}');
+#VENDEDOR SUCCESS
+define('VENDEDOR_SUCCES_1', '{"msg":"Vendedor creado"}');
+define('VENDEDOR_SUCCES_2', '{"msg":"El vendedor a sido modificado"}');
 ?>

@@ -358,3 +358,69 @@ globalmx_listrol:
 	app: controller
 	module: ControllerRol
 	action: listRol
+#Descripcion : Permite crear vendedores
+#Parametro   : cedula     bigint(20)
+#			   nombres    varchar(60)
+#			   apellidos  varchar(60)
+#			   telefono   int(11)  
+#			   correo     varchar(45)
+#Salida      : Retorna mensaje de exito si el vendedor fue creado
+#Example     : http://192.185.36.179/services/?BC=globalmx_createvendedor&cedula=99238823&nombres=Camila fuentes&apellidos=varela&telefono=33294343&correo=camila@hotmail.com
+globalmx_createvendedor:
+	method: get
+	app: controller
+	module: ControllerVendedor
+	action: createVendedor
+#Descripcion : Permite actualizar vendedores
+#Parametro   : idVendedor int(11)
+#			   cedula     bigint(20)
+#			   nombres    varchar(60)
+#			   apellidos  varchar(60)
+#			   telefono   int(11)  
+#			   correo     varchar(45)
+#Salida      : Retorna mensaje de exito si el vendedor fue modificado
+#Example     : http://192.185.36.179/services/?BC=globalmx_updatevendedor&idVendedor=3&cedula=99238823&nombres=Camila fuentes&apellidos=varela&telefono=33294343&correo=camila@hotmail.com
+globalmx_updatevendedor:
+	method: get
+	app: controller
+	module: ControllerVendedor
+	action: updateVendedor
+#Descripcion : Permite listar todas los vendedores
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todos los vendedores  que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listvendedor
+globalmx_listvendedor:
+	method: get
+	app: controller
+	module: ControllerVendedor
+	action: listVendedor
+#Descripcion : Permite actualizar personas
+#Parametro   : cedula            varchar(20)
+#			   ciudad            int(11)  Es el codigo de ciudad
+#			   nombre            varchar(45)
+#			   apellido          varchar(45)
+#			   nombre2           varchar(45)
+#			   apellido2         varchar(45)
+#			   direccion         varchar(45)
+#			   barrio            varchar(45)
+#			   telefono          bigint(20)
+#			   celular           bigint(20)
+#			   email             varchar(45)
+#			   codigoPostal      varchar(45)
+#			   fechaNacimiento   date
+#Salida      : Retorna mensaje de exito si la persona fue modificada
+#Example     : http://192.185.36.179/services/?BC=globalmx_updatepersona&cedula=99200323&nombre=prueba&apellido=prueba&nombre2=prueba&apellido2=prueba&barrio=prueba&telefono=111111&celular=1111111&email=elmailhotmailcom&codigoPostal=1234&fechaNacimiento=01-01-2001&direccion=asdasdasdasdasdas
+globalmx_updatepersona:
+	method: get
+	app: controller
+	module: ControllerPersona
+	action: updatePersona
+#Descripcion : Permite listar todas las personas
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todas las personas  que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listpersona
+globalmx_listpersona:
+	method: get
+	app: controller
+	module: ControllerPersona
+	action: listPersona

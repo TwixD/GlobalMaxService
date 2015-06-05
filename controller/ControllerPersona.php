@@ -222,5 +222,81 @@ class ControllerPersona {
       			exit(0);
 		   }        
     }
+
+    public function updatePersona(){
+        try{
+            $persona = Persona::find(getParam('cedula'));
+                if(!is_null(getParam('ciudad')) || strlen(getParam('ciudad')) > 0){
+                    $persona->globalmx_ciudad_cityid = getParam('ciudad');
+                }
+                if(!is_null(getParam('nombre')) || strlen(getParam('nombre')) > 0){
+                    $persona->nombre = getParam('nombre');
+                }
+                if(!is_null(getParam('apellido')) || strlen(getParam('apellido')) > 0){
+                    $persona->apellido = getParam('apellido');
+                }
+                if(!is_null(getParam('nombre2')) || strlen(getParam('nombre2')) > 0){
+                    $persona->nombre2 = getParam('nombre2');
+                }
+                if(!is_null(getParam('apellido2')) || strlen(getParam('apellido2')) > 0){
+                    $persona->apellido2 = getParam('apellido2');
+                }
+                if(!is_null(getParam('direccion')) || strlen(getParam('direccion')) > 0){
+                    $persona->direccion = getParam('direccion');
+                }
+                if(!is_null(getParam('barrio')) || strlen(getParam('barrio')) > 0){
+                    $persona->barrio = getParam('barrio');
+                }
+                if(!is_null(getParam('telefono')) || strlen(getParam('telefono')) > 0){
+                    $persona->telefono = getParam('telefono');
+                }
+                if(!is_null(getParam('celular')) || strlen(getParam('celular')) > 0){
+                    $persona->celular = getParam('celular');
+                }
+                if(!is_null(getParam('email')) || strlen(getParam('email')) > 0){
+                    $persona->email = getParam('email');
+                }
+                if(!is_null(getParam('codigoPostal')) || strlen(getParam('codigoPostal')) > 0){
+                    $persona->codigo_postal = getParam('codigoPostal');
+                }
+                if(!is_null(getParam('fechaNacimiento')) || strlen(getParam('fechaNacimiento')) > 0){
+                    $persona->fecha_nacimiento = getParam('fechaNacimiento');
+                }
+            try{
+                $ret = $persona->save();
+            }catch(ActiveRecord\DatabaseException $e){
+                processFailed(ERR,PERSONA_ERROR_13);
+                printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+                exit(0);
+            }
+            if($ret == false){
+                 processFailed(ERR,PERSONA_ERROR_13);
+                 exit(0);
+            }else{
+                 processSuccess(PERSONA_SUCCES_2);
+                 exit(0);
+            }
+        }catch(ActiveRecord\RecordNotFound $e){
+            processFailed(ERR,PERSONA_ERROR_14);
+            printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            exit(0);
+        }
+    }
+
+    public function listPersona(){
+         try{
+            $data = Persona::find('all');
+            $concact = null;
+                foreach ($data as $key) {
+                    $json = $key->to_json();
+                    $concac.=$json.',';
+                }
+            $concac = substr($concac, 0, strlen($concac) - 1);
+            processSuccess($concac);
+            } catch (ActiveRecord\RecordNotFound $e) {
+                processFailed(NO_EXIST,PERSONA_ERROR_15);
+                printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            }
+    }
 }
 ?>
