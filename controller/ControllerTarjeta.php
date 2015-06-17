@@ -382,7 +382,7 @@ class ControllerTarjeta{
 
     public function listTarjeta(){
          try{
-            $data = Tarjeta::find('all');
+            $data = Tarjeta::find_by_sql('select globalmx_tarjeta.numero,globalmx_tarjeta.globalmx_estado_id_estado,globalmx_estado.descripcion estado,globalmx_tarjeta.globalmx_usuario_id_usuario,globalmx_tarjeta.fecha_registro,globalmx_tarjeta.globalmx_vendedor_id_vendedor,globalmx_tarjeta.idglobalmx_impresion,globalmx_impresion.descripcion from globalmx_tarjeta,globalmx_estado,globalmx_impresion where globalmx_tarjeta.globalmx_estado_id_estado = globalmx_estado.id_estado and globalmx_tarjeta.idglobalmx_impresion = globalmx_impresion.idglobalmx_impresion limit 1');
             $concact = null;
                 foreach ($data as $key) {
                     $json = $key->to_json();
