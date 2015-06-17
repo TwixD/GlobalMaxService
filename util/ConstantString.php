@@ -13,9 +13,10 @@ define('CON_PASS', 'twix');
 define('CON_DB', 'globalmx');
 #PARAMETROS CONFIG
 define('MIN_RECARGA', 10000);
-define('MAX_RECARGA', 10000000);
+define('MAX_RECARGA', 5000000);
 #MAIL
 define('MAIL_ALLOW' , 'juandavidcrivera@hotmail.com');
+//define('MAIL_ALLOW' , 'asistente@globalmaxsocios.com');
 #LOGS
 define('LOG_ERROR', 'log/error.log');
 define('LOG_SUCCESS', 'log/success.log');

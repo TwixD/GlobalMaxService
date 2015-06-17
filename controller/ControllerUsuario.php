@@ -260,5 +260,50 @@ class ControllerUsuario {
                     exit(0);
                 }
     }
+
+        public function getId(){
+        printSuccessLog('Ingreso al metodo.' ,get_class($this),__FUNCTION__);
+        try{
+            $user = getParam('user');
+            $password = getParam('password');
+
+                if (is_null($user)) {
+                    printErrorLog(USUARIO_ERROR_1,get_class($this),__FUNCTION__);
+                    processFailed(EMPTY_FIELD,USUARIO_ERROR_1);
+                    exit(0);
+                }
+
+                if (is_null($password)) {
+                    printErrorLog(USUARIO_ERROR_2,get_class($this),__FUNCTION__);
+                    processFailed(EMPTY_FIELD,USUARIO_ERROR_2);
+                    exit(0);
+                }
+                printSuccessLog('Ingreso Usuario : '.$user. ' Password : ' .$password ,get_class($this),__FUNCTION__);
+
+                try{
+                    $data = Usuario::find('id_usuario',
+                        array('conditions' => array('usuario = ? AND contrasena = ?',
+                    $user,
+                    $password
+                    )));
+                if(count($data)==0){
+                    processFailed(WRONG_CAMP,USUARIO_ERROR_3);
+                    printErrorLog(USUARIO_ERROR_3,get_class($this),__FUNCTION__);
+                    exit(0);
+                }else{
+                    processSuccess($data->id_usuario);
+                }
+
+                } catch (ActiveRecord\RecordNotFound $e) {
+                    processFailed(NO_EXIST,USUARIO_ERROR_3);
+                    printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+                    exit(0);
+                }
+
+            } catch (ActiveRecord\RecordNotFound $e) {
+                 processFailed(NO_EXIST,USUARIO_ERROR_3);
+                 printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            }
+    }
 }
 ?>

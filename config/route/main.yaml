@@ -424,3 +424,40 @@ globalmx_listpersona:
 	app: controller
 	module: ControllerPersona
 	action: listPersona
+#Descripcion : Permite buscar persona por cedula
+#Parametro   : cedula varchar(20)
+#Salida      : Retorna la persona que concuerda con la cedula
+#Example     : http://192.185.36.179/services/?BC=globalmx_listpersonabycedula&cedula=1144161636
+globalmx_listpersonabycedula:
+	method: get
+	app: controller
+	module: ControllerPersona
+	action: listPersonaByCedula
+#Descripcion : Retorna el ID de el usuario buscando por usuario y contraseña
+#Parametro   : user (String)
+#			   password (String)
+#Salida      : Retorna el ID
+#Example     : http://192.185.36.179/services/?BC=globalmx_idbyuserandpassword&user=admin&password=admin
+globalmx_idbyuserandpassword:
+	method: get
+	app: controller
+	module: ControllerUsuario
+	action: getId
+#Descripcion : Permite listar todas las tarjetas
+#Parametro   : No tiene parametros de entrada
+#Salida      : Retorna todas las tarjetas  que se encuentran en la base de datos
+#Example     : http://192.185.36.179/services/?BC=globalmx_listtarjeta
+globalmx_listtarjeta:
+	method: get
+	app: controller
+	module: ControllerTarjeta
+	action: listTarjeta
+#Descripcion : Permite buscar vendedores por cedula
+#Parametro   : cedula varchar(20)
+#Salida      : Retorna el vededor que concuerda con la cedula
+#Example     : http://192.185.36.179/services/?BC=globalmx_listvendedorbycedula&cedula=111111111
+globalmx_listvendedorbycedula:
+	method: get
+	app: controller
+	module: ControllerVendedor
+	action: listVendedorByCedula

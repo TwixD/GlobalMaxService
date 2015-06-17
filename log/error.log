@@ -780,3 +780,10 @@ HOLA
 [04-06-2015 14:17:30]:[ControllerEmpresa][createEmpresa]:23000, 1062, Duplicate entry '123123' for key 'PRIMARY'
 [04-06-2015 14:19:54]:[ControllerEmpresa][updateEmpresa]:Couldn't find Empresa with ID=123123232
 [04-06-2015 15:56:43]:[ControllerEstado][updateEstado]:Couldn't find Estado with ID=5
+[17-06-2015 10:57:20]:[ControllerPersona][listPersonaByCedula]:Couldn't find Persona with ID=11441616363
+[17-06-2015 10:57:55]:[ControllerPersona][listPersonaByCedula]:Couldn't find Persona with ID=11441616363
+[17-06-2015 10:59:17]:[ControllerUsuario][validateUser]:Ingrese el usuario por favor.
+[17-06-2015 10:59:36]:[ControllerUsuario][validateUser]:Credenciales no validas.
+[17-06-2015 11:07:14]:[ControllerUsuario][getId]:Credenciales no validas.
+[17-06-2015 11:07:20]:[ControllerUsuario][getId]:Credenciales no validas.
+[17-06-2015 11:17:15]:[ControllerVendedor][listVendedorByCedula]:Couldn't find Vendedor with ID=111111111

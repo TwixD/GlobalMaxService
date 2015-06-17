@@ -267,6 +267,34 @@ $data = array (
     'module' => 'ControllerPersona',
     'action' => 'listPersona',
   ),
+  'globalmx_listpersonabycedula' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerPersona',
+    'action' => 'listPersonaByCedula',
+  ),
+  'globalmx_idbyuserandpassword' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerUsuario',
+    'action' => 'getId',
+  ),
+  'globalmx_listtarjeta' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerTarjeta',
+    'action' => 'listTarjeta',
+  ),
+  'globalmx_listvendedorbycedula' => 
+  array (
+    'method' => 'get',
+    'app' => 'controller',
+    'module' => 'ControllerVendedor',
+    'action' => 'listVendedorByCedula',
+  ),
 );
 
 ?>

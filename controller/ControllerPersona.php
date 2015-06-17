@@ -298,5 +298,22 @@ class ControllerPersona {
                 printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
             }
     }
+
+    public function listPersonaByCedula(){
+        try{
+            $id = getParam('cedula');
+                if (is_null($id)) {
+                    $id = 0;
+                }
+            printSuccessLog('Buscando id:'.$id,get_class($this),__FUNCTION__);
+            $data = Persona::find($id);
+            printSuccessLog('Encontro id:'.$id,get_class($this),__FUNCTION__);
+            processSuccess($data->to_json());
+            printSuccessLog('Exito    id:'.$id,get_class($this),__FUNCTION__);
+            } catch (ActiveRecord\RecordNotFound $e) {
+                processFailed(NO_EXIST,PERSONA_ERROR_13);
+                printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            }
+    }
 }
 ?>

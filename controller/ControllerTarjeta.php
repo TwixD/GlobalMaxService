@@ -379,5 +379,21 @@ class ControllerTarjeta{
             exit(0);
 		}
 	}
+
+    public function listTarjeta(){
+         try{
+            $data = Tarjeta::find('all');
+            $concact = null;
+                foreach ($data as $key) {
+                    $json = $key->to_json();
+                    $concac.=$json.',';
+                }
+            $concac = substr($concac, 0, strlen($concac) - 1);
+            processSuccess($concac);
+            } catch (ActiveRecord\RecordNotFound $e) {
+                processFailed(NO_EXIST,TARJETA_ERROR_5);
+                printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            }
+    }
 }
 ?>

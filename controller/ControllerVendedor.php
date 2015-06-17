@@ -78,5 +78,23 @@ class ControllerVendedor{
        			printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
 			}
     }
+
+    public function listVendedorByCedula(){
+        try{
+            $id = getParam('cedula');
+                if (is_null($id)) {
+                    $id = 0;
+                }
+            printSuccessLog('Buscando id:'.$id,get_class($this),__FUNCTION__);
+            $data = Vendedor::find_by_cedula($id);
+            printSuccessLog('Encontro id:'.$id,get_class($this),__FUNCTION__);
+            processSuccess($data->to_json());
+            printSuccessLog('Exito    id:'.$id,get_class($this),__FUNCTION__);
+            } catch (ActiveRecord\RecordNotFound $e) {
+                processFailed(NO_EXIST,VENDEDOR_ERROR_4);
+                printErrorLog($e->getMessage(),get_class($this),__FUNCTION__);
+            }
+    }
+
 }
 ?>

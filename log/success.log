@@ -10287,3 +10287,114 @@
 [04-06-2015 10:33:59]:[ControllerPais][getAllPais]:Entro metodo....
 [04-06-2015 10:33:59]:[ControllerPais][getAllPais]:Encontro paises.
 [04-06-2015 10:33:59]:[ControllerPais][getAllPais]:Imprime Paises.
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Buscando id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Encontro id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Exito    id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Buscando id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Encontro id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Exito    id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Buscando id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Encontro id:1144161636
+[17-06-2015 10:56:39]:[ControllerPersona][listPersonaByCedula]:Exito    id:1144161636
+[17-06-2015 10:56:40]:[ControllerPersona][listPersonaByCedula]:Buscando id:1144161636
+[17-06-2015 10:56:40]:[ControllerPersona][listPersonaByCedula]:Encontro id:1144161636
+[17-06-2015 10:56:40]:[ControllerPersona][listPersonaByCedula]:Exito    id:1144161636
+[17-06-2015 10:57:20]:[ControllerPersona][listPersonaByCedula]:Buscando id:11441616363
+[17-06-2015 10:57:29]:[ControllerPersona][listPersonaByCedula]:Buscando id:1144161636
+[17-06-2015 10:57:29]:[ControllerPersona][listPersonaByCedula]:Encontro id:1144161636
+[17-06-2015 10:57:29]:[ControllerPersona][listPersonaByCedula]:Exito    id:1144161636
+[17-06-2015 10:57:55]:[ControllerPersona][listPersonaByCedula]:Buscando id:11441616363
+[17-06-2015 10:58:05]:[ControllerPersona][listPersonaByCedula]:Buscando id:1144161636
+[17-06-2015 10:58:05]:[ControllerPersona][listPersonaByCedula]:Encontro id:1144161636
+[17-06-2015 10:58:05]:[ControllerPersona][listPersonaByCedula]:Exito    id:1144161636
+[17-06-2015 10:59:17]:[ControllerUsuario][validateUser]:Ingreso al metodo.
+[17-06-2015 10:59:36]:[ControllerUsuario][validateUser]:Ingreso al metodo.
+[17-06-2015 10:59:36]:[ControllerUsuario][validateUser]:Ingreso Usuario : admin Password : admin
+[17-06-2015 10:59:57]:[ControllerUsuario][validateUser]:Ingreso al metodo.
+[17-06-2015 10:59:57]:[ControllerUsuario][validateUser]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 10:59:57]:[ControllerUsuario][validateUser]:Acceso permitido. Usuario : [twixgameattack] Password : [7db9968b1ef8f2f60c29]
+[17-06-2015 11:03:32]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:03:32]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:03:35]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:03:35]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:03:37]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:03:37]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:03:45]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:03:45]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:03:45]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:03:45]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:03:45]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:03:45]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:04:20]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:04:20]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:04:20]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:04:20]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:04:20]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:04:20]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:04:42]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:04:42]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:04:42]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:04:42]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:04:42]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:04:42]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:06]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:06]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:06]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:06]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:06]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:06]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:14]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:14]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:14]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:14]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:40]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:40]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:50]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:50]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:50]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:50]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:05:51]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:05:51]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:32]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:32]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:32]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:32]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:39]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:39]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:39]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:39]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:39]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:39]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:50]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:50]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:50]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:50]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:06:50]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:06:50]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:07:04]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:07:04]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:07:04]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:07:04]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:07:05]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:07:05]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:07:14]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:07:14]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c293
+[17-06-2015 11:07:17]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:07:17]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:07:20]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:07:20]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack3 Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:07:23]:[ControllerUsuario][getId]:Ingreso al metodo.
+[17-06-2015 11:07:23]:[ControllerUsuario][getId]:Ingreso Usuario : twixgameattack Password : 7db9968b1ef8f2f60c29
+[17-06-2015 11:17:15]:[ControllerVendedor][listVendedorByCedula]:Buscando id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Buscando id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Encontro id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Exito    id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Buscando id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Encontro id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Exito    id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Buscando id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Encontro id:111111111
+[17-06-2015 11:17:42]:[ControllerVendedor][listVendedorByCedula]:Exito    id:111111111
+[17-06-2015 11:17:53]:[ControllerVendedor][listVendedorByCedula]:Buscando id:9923882333
+[17-06-2015 11:17:53]:[ControllerVendedor][listVendedorByCedula]:Encontro id:9923882333
+[17-06-2015 11:17:53]:[ControllerVendedor][listVendedorByCedula]:Exito    id:9923882333
