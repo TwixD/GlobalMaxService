@@ -67,16 +67,16 @@ class ControllerMenu {
         return $arrayConMenuTree;
     }
 
-    public function getMenu() {
-        $paramUser = getParam('user');
-        $resulMAS = '{ "children": 
-                      [ 
-                      ' . $this->getDetalleMenu($paramUser)[0] . '
-                      ' . $this->getDetalleMenu($paramUser)[1] . '
-                      ' . $this->getDetalleMenu($paramUser)[2] . '                
-                    ]
-                    }';
-        echo $resulMAS;
+    public function getMenu() {//MIRE EL METODO
+        $paramUser =  getParam('user');
+        echo '{ "children":[';
+			for($i=0; $i<count($this->getDetalleMenu($paramUser)); $i++){
+                     echo  '' . $this->getDetalleMenu($paramUser)[$i]. '';
+                     
+			}                
+                   
+                   echo ']}';
+     
     }
 }
 ?>
