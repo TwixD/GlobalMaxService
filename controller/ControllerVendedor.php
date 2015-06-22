@@ -87,6 +87,10 @@ class ControllerVendedor{
                 }
             printSuccessLog('Buscando id:'.$id,get_class($this),__FUNCTION__);
             $data = Vendedor::find_by_cedula($id);
+                if (is_null($data)) {
+     				processFailed(NO_EXIST,VENDEDOR_ERROR_4);
+     				exit(0);
+     			}
             printSuccessLog('Encontro id:'.$id,get_class($this),__FUNCTION__);
             processSuccess($data->to_json());
             printSuccessLog('Exito    id:'.$id,get_class($this),__FUNCTION__);
